@@ -3,7 +3,7 @@ import { MetadataRoute } from "next";
 // Docs for this file: https://nextjs.org/docs/app/api-reference/file-conventions/metadata/manifest#generate-a-manifest-file
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Owen Gallagher's Name Website",
+    name: "Owen Gallagher's Games",
     short_name: "Owen Games",
     description: "A portfolio website for Owen Gallagher's games.",
     categories: ["personal", "games", "software", "productivity", "social"], // https://github.com/w3c/manifest/wiki/Categories

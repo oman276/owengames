@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     default: "Owen's Games",
   },
   description:
-    "A website housing my online presence. This includes my professional interests, hobbies, writing, photography, games, and other such things.",
+    "Owen Gallagher's public game portfolio, housing some of the many video games I've made over the years.",
   generator: "Next.js",
   keywords: [
     "University of Waterloo",
