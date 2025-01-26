@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import { Metadata, Viewport } from "next/types";
 
-
 {/*
 export const metadata: Metadata = {
     title: "About",
@@ -14,11 +13,11 @@ export const metadata: Metadata = {
   };
 
   */}
-export default function About() {
+export default function Contact() {
   return (
     <div className="flex flex-col items-center gap-4 justify-center min-h-screen text-center">
-      <h1 className="text-2xl font-bold">About Page</h1>
-      <p>I couldn't think of anything good to put here. The work should speak for itself, I hope.</p>
+      <h1 className="text-2xl font-bold">Contact Page - Under Construction</h1>
+      <p>This is for getting in touch with me.</p>
     </div>
   );
 }
