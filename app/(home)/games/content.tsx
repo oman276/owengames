@@ -56,4 +56,16 @@ export const personalGames : GamesListItem[] = [
     ],
     desc: "A short narrative game about a father looking for his daughter who has just returned from war. My first time using Ink to create a branching story, with the gameplay being in Godot. I wanted to expand this story, but it proved trickier to pin down than I hoped."
   },
+
+  {
+    title: "BURNT OUT",
+    date: "June 6, 2024",
+    collaborators: "Maria Melnyk, Misha Melnyk, Nicole Planeta",
+    role: "Design, Programming",
+    links: [
+      { name: "Play Online", url: "https://oman276.itch.io/burnt-out" },
+      { name: "View Code", url: "https://github.com/kertox662/GDC-GameJam-S24" },
+    ],
+    desc: "An 'anti-cozy' game, where you experience the feeling of gamified burnout, spreading yourself too thin over too many tasks, based on my own experiences as a student. My first full game using Godot."
+  },
 ];
