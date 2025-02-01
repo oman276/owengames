@@ -68,4 +68,50 @@ export const personalGames : GamesListItem[] = [
     ],
     desc: "An 'anti-cozy' game, where you experience the feeling of gamified burnout, spreading yourself too thin over too many tasks, based on my own experiences as a student. My first full game using Godot."
   },
+
+  {
+    title: "Turtle Golf",
+    date: "May 6th, 2024",
+    collaborators: "Ella Goodridge, Nicole Planeta",
+    role: "Design, Programming, Project Planning",
+    links: [
+      { name: "Play Online", url: "https://eternalon03.itch.io/turtle-golf" },
+      { name: "View Code", url: "https://github.com/oman276/TurtleV3" },
+    ],
+    desc: "My first long term, non-game jam project. Helped lead a team in designing and iterating on a drag-and-shoot adventure game starring a very slippery turtle. Uses Unity and C#."
+  },
+
+  {
+    title: "./charonet",
+    date: "July 26, 2023",
+    collaborators: "Liam McArthur, Sophie Thomas-Salvosa, Tanishi Naik",
+    role: "Design, Programming",
+    links: [
+      { name: "Play Online", url: "https://oman276.itch.io/charonet" },
+    ],
+    desc: "A narrative game created for a school assignment in Summer 2023. Some excerpts from itch.io comments: \"i have cried no less than three times from this game now... razor sharp writing. thank you.\" Made in Twine. (A hint: if you haven't seen the credits, the game's not over.)"
+  },
+
+  {
+    title: "Uprooting For You",
+    date: "February 27, 2023",
+    collaborators: "Nicole Planeta",
+    role: "Design, Programming",
+    links: [
+      { name: "Play Online", url: "https://oman276.itch.io/uprooting-for-you" },
+      { name: "View Code", url: "https://github.com/oman276/GI-Jam-W23" },
+    ],
+    desc: "A competitive local multiplayer game about winning the love of a beautiful tractor. Made in Unity and C#."
+  },
+
+  {
+    title: "Dating Is Hell",
+    date: "October 2, 2022",
+    collaborators: "Daegeon Kang",
+    role: "Design, Programming, Writing",
+    links: [
+      { name: "Play Online", url: "https://oman276.itch.io/dating-is-hell" },
+    ],
+    desc: "A unique dating sim where you need to rekindle the spark with an old flame to exit dating hell."
+  },
 ];
