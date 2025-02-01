@@ -1,12 +1,35 @@
 import { Button } from "@/components/ui/button";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion"
 import Link from "next/link";
+import {
+  NavigationMenu,
+  NavigationMenuContent,
+  NavigationMenuIndicator,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+  NavigationMenuTrigger,
+  NavigationMenuViewport,
+} from "@/components/ui/navigation-menu"
+import { navigationMenuTriggerStyle } from "@/components/ui/navigation-menu"
+
 
 export default async function Home() {
   return (
-    <div className="flex flex-col gap-4 my-auto justify items-center justify-center text-center">
-      <p className="text-balance">Owen Gallagher&apos;s Game Website</p>
+    <div className="flex flex-col items-center gap-4 justify-center min-h-screen text-center">
+
+      <span className="bg-gradient-to-b from-foreground to-transparent bg-clip-text text-[10rem] font-extrabold leading-none text-transparent">
+        OWENGAMES
+      </span>
+      <p>The official website of Owen Gallagher.</p>
+
       <Button variant="outline" asChild>
-        <Link href="https://oman276.itch.io/">Games</Link>
+        <Link href="https://oman276.itch.io/">itch.io</Link>
       </Button>
       <Button variant="outline" asChild>
         <Link href="https://github.com/oman276">GitHub</Link>
@@ -16,6 +39,8 @@ export default async function Home() {
           LinkedIn
         </Link>
       </Button>
+      
+
     </div>
   );
 }
