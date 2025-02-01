@@ -15,7 +15,7 @@ export type GamesListItem = {
 
 export default function GamesList({games} : {games: GamesListItem[]}){
     return (
-        <div>
+        <div className="flex flex-col items-left gap-4 min-h-screen text-left">
             {games.map((game, index) => (
                 <div>
                     <p className="mb-2">
