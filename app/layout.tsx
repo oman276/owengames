@@ -1,6 +1,7 @@
 import { BASE_URL } from "@/lib/constants";
 import { type Metadata } from "next";
 import { JetBrains_Mono } from "next/font/google";
+import { Anton } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import { ThemeProvider } from "next-themes";
@@ -14,13 +15,18 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
   NavigationMenuViewport,
-} from "@/components/ui/navigation-menu"
-import { navigationMenuTriggerStyle } from "@/components/ui/navigation-menu"
+} from "@/components/ui/navigation-menu";
+import { navigationMenuTriggerStyle } from "@/components/ui/navigation-menu";
 import Link from "next/link";
 
 const fontSans = JetBrains_Mono({
   subsets: ["latin"],
   variable: "--font-sans",
+});
+
+const headlines = Anton({
+  subsets: ["latin"], // which characters to include
+  weight: "400", // which font weight(s) to preload
 });
 
 // OPG compliant metadata (https://ogp.me/)
@@ -89,15 +95,15 @@ export default async function RootLayout({
         >
           <NavigationMenu>
             <NavigationMenuList>
-              
               <NavigationMenuItem>
                 <Link href="/" legacyBehavior passHref>
                   <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                    <strong>OWENGAMES</strong>
+                    <strong> OWENGAMES </strong>
                   </NavigationMenuLink>
                 </Link>
               </NavigationMenuItem>
 
+              {/*
               <NavigationMenuItem>
                 <Link href="/play" legacyBehavior passHref>
                   <NavigationMenuLink className={navigationMenuTriggerStyle()}>
@@ -105,6 +111,7 @@ export default async function RootLayout({
                   </NavigationMenuLink>
                 </Link>
               </NavigationMenuItem>
+              */}
 
               <NavigationMenuItem>
                 <Link href="/games" legacyBehavior passHref>
@@ -130,6 +137,7 @@ export default async function RootLayout({
                 </Link>
               </NavigationMenuItem>
 
+              {/*
               <NavigationMenuItem>
                 <Link href="/etcetera" legacyBehavior passHref>
                   <NavigationMenuLink className={navigationMenuTriggerStyle()}>
@@ -137,6 +145,7 @@ export default async function RootLayout({
                   </NavigationMenuLink>
                 </Link>
               </NavigationMenuItem>
+              */}
 
               <NavigationMenuItem>
                 <Link href="/contact" legacyBehavior passHref>
@@ -145,7 +154,6 @@ export default async function RootLayout({
                   </NavigationMenuLink>
                 </Link>
               </NavigationMenuItem>
-
             </NavigationMenuList>
           </NavigationMenu>
           {children}

@@ -4,7 +4,7 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/components/ui/accordion"
+} from "@/components/ui/accordion";
 import Link from "next/link";
 import {
   NavigationMenu,
@@ -15,14 +15,12 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
   NavigationMenuViewport,
-} from "@/components/ui/navigation-menu"
-import { navigationMenuTriggerStyle } from "@/components/ui/navigation-menu"
-
+} from "@/components/ui/navigation-menu";
+import { navigationMenuTriggerStyle } from "@/components/ui/navigation-menu";
 
 export default async function Home() {
   return (
     <div className="flex flex-col items-center gap-4 justify-center min-h-screen text-center">
-
       <span className="bg-gradient-to-b from-foreground to-transparent bg-clip-text text-[10rem] font-extrabold leading-none text-transparent">
         OWENGAMES
       </span>
@@ -39,8 +37,6 @@ export default async function Home() {
           LinkedIn
         </Link>
       </Button>
-      
-
     </div>
   );
 }

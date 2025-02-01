@@ -1,7 +1,8 @@
-import Link from 'next/link';
+import Link from "next/link";
 import { Metadata, Viewport } from "next/types";
 
-{/*
+{
+  /*
 export const metadata: Metadata = {
     title: "About",
     description: META_DESCRIPTION_HOME,
@@ -12,7 +13,8 @@ export const metadata: Metadata = {
     }),
   };
 
-  */}
+  */
+}
 export default function Etcetera() {
   return (
     <div className="flex flex-col items-center gap-4 justify-center min-h-screen text-center">

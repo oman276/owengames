@@ -6,6 +6,7 @@ export const BASE_URL = isProd()
   : "http://localhost:3000";
 
 export const PATH_HOME = "/";
+export const PATH_WRITING = "/writing";
 
 export const AUTHOR: Author = {
   name: "Owen Gallagher",
