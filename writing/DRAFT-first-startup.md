@@ -1,8 +1,8 @@
 ---
 title: "Startup thoughts"
-subtitle: "..."
+subtitle: "Subtitle"
 preview: "OPG preview"
-date: "..."
+date: "February 2, 2025"
 tags: ["quick", "writing"]
 lat: "..."
 long: "..."

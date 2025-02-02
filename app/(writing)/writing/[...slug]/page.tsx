@@ -32,16 +32,18 @@ export default async function Post({ params }: Params) {
   const nextPost = currentIndex > 0 ? posts[currentIndex - 1] : undefined;
 
   return (
-    <article className="mt-8 sm:mt-10">
-      <PostHeader
-        title={post.title}
-        subtitle={post.subtitle}
-        coverImage={post.coverImage}
-        date={post.date}
-      />
-      <PostBody content={content} />
-      <PostFooter nextPost={nextPost} />
-    </article>
+    <div className="flex flex-col items-center max-w-2xl mx-auto mgap-4 min-h-screen">
+      <article className="mt-8 sm:mt-10">
+        <PostHeader
+          title={post.title}
+          subtitle={post.subtitle}
+          coverImage={post.coverImage}
+          date={post.date}
+        />
+        <PostBody content={content} />
+        <PostFooter nextPost={nextPost} />
+      </article>
+    </div>
   );
 }
 

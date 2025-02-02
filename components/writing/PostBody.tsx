@@ -10,7 +10,7 @@ const fontPosts = IBM_Plex_Sans({
 
 export default function PostBody({ content }: { content: string }) {
   return (
-    <div className={cn("w-full", fontPosts.className)}>
+    <div className={cn("w-full max-w-2xl mx-auto px-4", fontPosts.className)}>
       <div
         className={markdownStyles["markdown"]}
         dangerouslySetInnerHTML={{ __html: content }}

@@ -24,8 +24,9 @@ export default function GamesList({ games }: { games: GamesListItem[] }) {
           </p>
           <p className="mb-2">
             <span className="italic">{game.date}</span>
-            <span className="text-gray-400 italic"> with </span>
-            <span className="italic">{game.collaborators}</span>
+            {game.collaborators != "" && (
+                  <span className="italic"> with {game.collaborators}</span>
+            )}
           </p>
           <p className="mb-2 max-w-xl mx-auto">{game.desc}</p>
 

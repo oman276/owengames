@@ -22,9 +22,11 @@ export default function PostFooter({ nextPost }: { nextPost?: Post }) {
           <ArrowLeftIcon /> Back to Writing
         </NavButton>
       )}
+      {/*
       <NavButton href="/feed.xml" className="pr-0 mt-2 -mb-1 font-thin">
         RSS
       </NavButton>
+      */}
     </div>
   );
 }
