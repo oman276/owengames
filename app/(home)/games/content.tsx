@@ -56,6 +56,18 @@ export const professionalGames: GamesListItem[] = [
 
 export const personalGames: GamesListItem[] = [
   {
+    title: "Wrath of Daedelus",
+    date: "February 9, 2025",
+    collaborators: "Nicole Planeta",
+    role: "Design, Programming",
+    links: [
+      { name: "Play Online", url: "https://eternalon03.itch.io/wrath-of-daedalus" },
+      { name: "View Code", url: "https://github.com/oman276/UWJamW25" },
+    ],
+    desc: "An action game where you play as a steampunk Icarus, who must fly around an arena defeating an endless set of his father Daedelus' mechanical creations, while making sure his wings don't get so hot that they melt. Made in Godot.",
+  },
+
+  {
     title: "First Snow",
     date: "October 6, 2024",
     collaborators: "Nicole Planeta",
