@@ -24,9 +24,6 @@ export default function Writing() {
   let currentYear = new Date().getFullYear() + 1;
 
   return (
-    // 1) Added gap-4 to space out items vertically
-    // 2) Ensured everything is centered with items-center in a flex-col
-    // 3) Made the container auto-center on the page with max-w and mx-auto
     <div className="flex flex-col items-center max-w-2xl mx-auto gap-4 min-h-screen">
       <h1 className="text-3xl font-bold mt-8 mb-8 text-center">WRITING</h1>
       {posts.map((post) => {
@@ -34,9 +31,6 @@ export default function Writing() {
         const showYear = postYear !== currentYear;
         currentYear = postYear;
         return (
-          // 4) Use gap for spacing columns, justify-center for centering
-          // 5) Removed custom widths, replaced with flex-basis classes 
-          //    or you can keep w-[16%]/w-[84%] if you prefer
           <div
             key={post.slug}
             className={cn(
