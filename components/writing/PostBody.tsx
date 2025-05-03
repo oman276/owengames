@@ -1,10 +1,11 @@
 import { IBM_Plex_Sans } from "next/font/google";
+import { EB_Garamond } from "next/font/google";
 import markdownStyles from "./markdown-styles.module.css";
 import { cn } from "@/lib/utils";
 
-const fontPosts = IBM_Plex_Sans({
+const fontPosts = EB_Garamond({
   subsets: ["latin"],
-  weight: ["200", "400", "600"],
+  weight: ["400", "600"],
   variable: "--font-posts",
 });
 

@@ -17,7 +17,7 @@ export default function PostHeader({
   return (
     <div className="max-w-2xl mx-auto px-4">
       <div className="pt-6">
-        <h1 className="text-2xl font-semibold mt-[2px] text-balance tracking-tight uppercase text-center">
+        <h1 className="text-5xl font-header tracking-wide mt-[2px] text-balance uppercase text-center">
           {title}
         </h1>
       </div>

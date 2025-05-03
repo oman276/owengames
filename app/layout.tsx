@@ -2,6 +2,7 @@ import { BASE_URL } from "@/lib/constants";
 import { type Metadata } from "next";
 import { JetBrains_Mono } from "next/font/google";
 import { Anton } from "next/font/google";
+import { EB_Garamond } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import { ThemeProvider } from "next-themes";
@@ -19,14 +20,16 @@ import {
 import { navigationMenuTriggerStyle } from "@/components/ui/navigation-menu";
 import Link from "next/link";
 
-const fontSans = JetBrains_Mono({
+const fontSans = EB_Garamond({
   subsets: ["latin"],
+  weight: ["400", "600", "700"],
   variable: "--font-sans",
 });
 
 const headlines = Anton({
   subsets: ["latin"], // which characters to include
-  weight: "400", // which font weight(s) to preload
+  weight: "400",
+  variable: "--font-header" // which font weight(s) to preload
 });
 
 // OPG compliant metadata (https://ogp.me/)
@@ -85,7 +88,7 @@ export default async function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={cn(fontSans.variable)} suppressHydrationWarning>
+    <html lang="en" className={cn(fontSans.variable, headlines.variable)} suppressHydrationWarning>
       <body className="flex flex-col h-screen overflow-x-hidden scrollbar bg-background font-sans antialiased transition-colors">
         <ThemeProvider
           attribute="class"

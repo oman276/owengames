@@ -25,7 +25,7 @@ export default function Writing() {
 
   return (
     <div className="flex flex-col items-center max-w-2xl mx-auto gap-4 min-h-screen">
-      <h1 className="text-3xl font-bold mt-8 mb-8 text-center">WRITING</h1>
+      <h1 className="text-6xl font-header tracking-wide mt-8 mb-8 text-center">WRITING</h1>
       {posts.map((post) => {
         const postYear = new Date(post.date).getFullYear();
         const showYear = postYear !== currentYear;
