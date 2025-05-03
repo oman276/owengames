@@ -32,11 +32,11 @@ const headlines = Anton({
 // OPG compliant metadata (https://ogp.me/)
 export const metadata: Metadata = {
   title: {
-    template: "%s | Owen's Games",
-    default: "Owen's Games",
+    template: "%s | OWENGAMES",
+    default: "OWENGAMES",
   },
   description:
-    "Owen Gallagher's public game portfolio, housing some of the many video games I've made over the years.",
+    "The official website of Owen Gallagher.",
   generator: "Next.js",
   keywords: [
     "University of Waterloo",
@@ -67,9 +67,9 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_CA",
     url: BASE_URL,
-    siteName: "Owen's Games",
-    title: "Owen Gallagher's Games",
-    description: "A portfolio website for my games.",
+    siteName: "OWENGAMES",
+    title: "OWENGAMES",
+    description: "The official website of Owen Gallagher.",
     // images: [
     //   {
     //     url: `${BASE_URL}/icons/favicon48x48.png`,
