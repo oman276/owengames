@@ -21,7 +21,7 @@ import { navigationMenuTriggerStyle } from "@/components/ui/navigation-menu";
 export default async function Home() {
   return (
     <div className="flex flex-col items-center gap-4 justify-center min-h-screen text-center">
-      <span className="font-header bg-gradient-to-b from-foreground to-transparent bg-clip-text text-[10rem] font-extrabold leading-none text-transparent">
+      <span className="font-header bg-gradient-to-b from-foreground to-transparent bg-clip-text text-[10rem] tracking-wide mt-[2px] leading-none text-transparent">
         OWENGAMES
       </span>
       <p>The official website of Owen Gallagher.</p>
