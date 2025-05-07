@@ -1,5 +1,5 @@
 ---
-title: "spring"
+title: "Spring"
 subtitle: ""
 preview: "OPG preview"
 date: "March 17, 2023"

@@ -1,5 +1,5 @@
 ---
-title: "Would you put a chip in your brain?"
+title: "Would You Put A Chip In Your Brain?"
 subtitle: ""
 preview: "OPG preview"
 date: "January 17, 2025"

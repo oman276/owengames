@@ -2,6 +2,7 @@ import { BASE_URL } from "@/lib/constants";
 import { type Metadata } from "next";
 import { JetBrains_Mono } from "next/font/google";
 import { Anton } from "next/font/google";
+import { EB_Garamond } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import { ThemeProvider } from "next-themes";
@@ -19,14 +20,16 @@ import {
 import { navigationMenuTriggerStyle } from "@/components/ui/navigation-menu";
 import Link from "next/link";
 
-const fontSans = JetBrains_Mono({
+const fontSans = EB_Garamond({
   subsets: ["latin"],
+  weight: ["400", "600", "700"],
   variable: "--font-sans",
 });
 
 const headlines = Anton({
   subsets: ["latin"], // which characters to include
-  weight: "400", // which font weight(s) to preload
+  weight: "400",
+  variable: "--font-header" // which font weight(s) to preload
 });
 
 // OPG compliant metadata (https://ogp.me/)
@@ -85,77 +88,79 @@ export default async function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={cn(fontSans.variable)} suppressHydrationWarning>
-      <body className="flex flex-col h-screen overflow-x-hidden scrollbar bg-background font-sans antialiased transition-colors">
+    <html lang="en" className={cn(fontSans.variable, headlines.variable)} suppressHydrationWarning>
+      <body className="flex flex-col h-screen overflow-x-hidden scrollbar bg-background font-sans text-lg leading-7 antialiased transition-colors">
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
           storageKey="theme"
           enableSystem
         >
-          <NavigationMenu>
-            <NavigationMenuList>
-              <NavigationMenuItem>
-                <Link href="/" legacyBehavior passHref>
-                  <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                    <strong> OWENGAMES </strong>
-                  </NavigationMenuLink>
-                </Link>
-              </NavigationMenuItem>
+          <span className="font-header tracking-wide mt-[2px]">
+            <NavigationMenu>
+              <NavigationMenuList>
+                <NavigationMenuItem>
+                  <Link href="/" legacyBehavior passHref>
+                    <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                      OWENGAMES
+                    </NavigationMenuLink>
+                  </Link>
+                </NavigationMenuItem>
 
-              {/*
-              <NavigationMenuItem>
-                <Link href="/play" legacyBehavior passHref>
-                  <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                    PLAY NOW
-                  </NavigationMenuLink>
-                </Link>
-              </NavigationMenuItem>
-              */}
+                {/*
+                <NavigationMenuItem>
+                  <Link href="/play" legacyBehavior passHref>
+                    <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                      PLAY NOW
+                    </NavigationMenuLink>
+                  </Link>
+                </NavigationMenuItem>
+                */}
 
-              <NavigationMenuItem>
-                <Link href="/games" legacyBehavior passHref>
-                  <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                    MY GAMES
-                  </NavigationMenuLink>
-                </Link>
-              </NavigationMenuItem>
+                <NavigationMenuItem>
+                  <Link href="/games" legacyBehavior passHref>
+                    <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                      MY GAMES
+                    </NavigationMenuLink>
+                  </Link>
+                </NavigationMenuItem>
 
-              <NavigationMenuItem>
-                <Link href="/writing" legacyBehavior passHref>
-                  <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                    WRITING
-                  </NavigationMenuLink>
-                </Link>
-              </NavigationMenuItem>
+                <NavigationMenuItem>
+                  <Link href="/writing" legacyBehavior passHref>
+                    <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                      WRITING
+                    </NavigationMenuLink>
+                  </Link>
+                </NavigationMenuItem>
 
-              <NavigationMenuItem>
-                <Link href="/photography" legacyBehavior passHref>
-                  <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                    PHOTOS
-                  </NavigationMenuLink>
-                </Link>
-              </NavigationMenuItem>
+                <NavigationMenuItem>
+                  <Link href="/photography" legacyBehavior passHref>
+                    <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                      PHOTOS
+                    </NavigationMenuLink>
+                  </Link>
+                </NavigationMenuItem>
 
-              {/*
-              <NavigationMenuItem>
-                <Link href="/etcetera" legacyBehavior passHref>
-                  <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                    ETC.
-                  </NavigationMenuLink>
-                </Link>
-              </NavigationMenuItem>
-              */}
+                {/*
+                <NavigationMenuItem>
+                  <Link href="/etcetera" legacyBehavior passHref>
+                    <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                      ETC.
+                    </NavigationMenuLink>
+                  </Link>
+                </NavigationMenuItem>
+                */}
 
-              <NavigationMenuItem>
-                <Link href="/contact" legacyBehavior passHref>
-                  <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                    CONTACT
-                  </NavigationMenuLink>
-                </Link>
-              </NavigationMenuItem>
-            </NavigationMenuList>
-          </NavigationMenu>
+                <NavigationMenuItem>
+                  <Link href="/contact" legacyBehavior passHref>
+                    <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                      CONTACT
+                    </NavigationMenuLink>
+                  </Link>
+                </NavigationMenuItem>
+              </NavigationMenuList>
+            </NavigationMenu>
+          </span>
           {children}
         </ThemeProvider>
       </body>

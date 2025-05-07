@@ -14,15 +14,15 @@ export type GamesListItem = {
 
 export default function GamesList({ games }: { games: GamesListItem[] }) {
   return (
-    <div className="flex flex-col items-left gap-4 text-left">
+    <div className="flex flex-col gap-4 text-left">
       {games.map((game, index) => (
         <div key={index}>
-          <p className="mb-2">
-            <span className="text-2xl font-bold">{game.title}</span>
-            <span> </span>
-            <span className="italic">{game.role}</span>
+          <p className="mb-2 max-w-xl mx-auto">
+            <span className="text-3xl font-header uppercase">{game.title}</span>
           </p>
-          <p className="mb-2">
+          <p className="mb-2 max-w-xl mx-auto">
+            <span className="italic">{game.role}</span>
+            <span> · </span>
             <span className="italic">{game.date}</span>
             {game.collaborators != "" && (
                   <span className="italic"> with {game.collaborators}</span>
