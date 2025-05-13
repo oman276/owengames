@@ -51,7 +51,7 @@ Highlights of the action include:
 
 Look, this isn’t a great film. It’s a great movie. If you have a craving for junk food, it’s hard to go wrong with this.
 
-**Thunderbolts* (2025)**
+**Thunderbolts\* (2025)**
 
 I think the reaction to Thunderbolts* has been somewhat backhanded. People say it’s good, but mostly in the context of how utterly dogshit the Marvel movies have gotten recently. McDonalds won’t blow you away unless you’ve been eating out of the compost bin for years.
 
