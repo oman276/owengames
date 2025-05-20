@@ -9,6 +9,7 @@ export const PATH_HOME = "/";
 export const PATH_WRITING = "/writing";
 export const PATH_GAMES = "/games";
 export const PATH_PHOTOGRAPHY = "/photography";
+export const PATH_PHOTOGRAPHY_IMAGES = "/images/photography";
 export const PATH_CONTACT = "/contact";
 
 export const AUTHOR: Author = {
