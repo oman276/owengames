@@ -24,7 +24,7 @@ export default async function Home() {
       <span className="font-header bg-gradient-to-b text-[5rem] from-foreground to-transparent bg-clip-text tracking-wide leading-none text-transparent">
         OWENGAMES
       </span>
-      <p>The official website of Owen Gallagher.</p>
+      <p className="font-sans">The official website of Owen Gallagher.</p>
 
       <Button variant="outline" asChild>
         <Link href="https://oman276.itch.io/">itch.io</Link>
