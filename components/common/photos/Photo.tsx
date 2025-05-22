@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils";
 import Image from "next/image";
 import { useState } from "react";
 import { InView } from "react-intersection-observer";
-import { MasonryImage } from "./MasonryLayout";
+import { MasonryImage } from "@/components/photography/MasonryLayout";
 
 export type LoadMethod = "border" | "blur";
 
