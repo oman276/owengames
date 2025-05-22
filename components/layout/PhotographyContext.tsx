@@ -20,7 +20,9 @@ export default function PhotographyContent() {
   const [loadMethod, setLoadMethod] = useState<LoadMethod>("border");
   const [shuffledPhotos, setShuffledPhotos] = useState<MasonryImage[]>([]);
 
-  useEffect(() => {setShuffledPhotos(shuffleArray(photos));}, []); 
+  useEffect(() => {
+    setShuffledPhotos(shuffleArray<MasonryImage>(photos));
+  }, []); 
 
   return (
     <>

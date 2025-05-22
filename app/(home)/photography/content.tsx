@@ -1,4 +1,4 @@
-import { MasonryImage } from "@/components/common/photos/MasonryLayout";
+import { MasonryImage } from "@/components/photography/MasonryLayout";
 import { PATH_PHOTOGRAPHY_IMAGES } from "@/lib/constants";
 
 export const photos: MasonryImage[] = [

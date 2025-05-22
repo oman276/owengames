@@ -6,7 +6,7 @@ import Photo, { LoadMethod } from "./Photo";
 
 export type MasonryImage = {
   src: string;
-  title: string;
+  title?: string;
   alt: string;
   location: string;
   year: string;
