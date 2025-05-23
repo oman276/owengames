@@ -3,18 +3,18 @@
 import { useMemo } from "react";
 import { useMeasure } from "react-use";
 import Photo, { LoadMethod } from "./Photo";
+import { MasonryImage } from "@/components/photography/MasonryLayout";
 
-export type MasonryImage = {
-  src: string;
-  title?: string;
-  alt: string;
-  location: string;
-  year: string;
-  /** Image's original size in pixels. [width, height] */
-  size: [number, number];
-  /** See `[root]/scripts/generateBlurData/README.md` for more information. */
-  blurDataURL?: string;
-};
+// export type MasonryImage = {
+//   src: string;
+//   alt: string;
+//   location: string;
+//   year: string;
+//   /** Image's original size in pixels. [width, height] */
+//   size: [number, number];
+//   /** See `[root]/scripts/generateBlurData/README.md` for more information. */
+//   blurDataURL?: string;
+// };
 
 type MasonryLayoutProps = {
   images: MasonryImage[];
@@ -22,7 +22,8 @@ type MasonryLayoutProps = {
 };
 
 /**
- * My custom dynamic, animated Masonry layout component.
+ * Josiah's custom dynamic, animated Masonry layout component.
+ * Not mine! This is blatantly stolen from Josiah's code (with permission).
  */
 export default function MasonryLayout({
   images,
