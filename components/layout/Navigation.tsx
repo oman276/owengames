@@ -47,14 +47,14 @@ export default function Navigation() {
         PHOTOGRAPHY
       </NavButton>
 
-    <div className="flex-1" />
+    {/* <div className="flex-1" />
     <NavButton
         href={PATH_CONTACT}
         active={pathname === PATH_CONTACT}
         aria-label="Contact"
         >
         CONTACT
-        </NavButton>
+        </NavButton> */}
     </nav>
   );
 }
