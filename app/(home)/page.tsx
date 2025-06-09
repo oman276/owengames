@@ -31,9 +31,9 @@ export default async function Home() {
       <span className="font-header text-[5rem] bg-clip-text tracking-wide leading-none">
         OWENGAMES
       </span>
-      <p className="font-sans">I'm Owen Gallagher. I spend most of my time these days being a student at the University of Waterloo and a game developer. The rest of my time is is spent writing and taking pretty pictures.</p>
-      <p className="font-sans">I've made 16 personal games (and counting) mostly using Godot and Unity/C#. I've also worked a year's worth of gameplay programmer internships, including at Haven Studios (PlayStation Studios) on Fairgame$ and Digital Extremes on Warframe in C++ and/or Unreal Engine 5.</p>
-      <p className="font-sans">Here's some of my work that I'm proudest of right now:</p>
+      <p className="font-sans">I&apos;m Owen Gallagher. I spend most of my time these days being a student at the University of Waterloo and a game developer. The rest of my time is is spent writing and taking pretty pictures.</p>
+      <p className="font-sans">I&apos;ve made 16 personal games (and counting) mostly using Godot and Unity/C#. I&apos;ve also worked a year&apos;s worth of gameplay programmer internships, including at Haven Studios (PlayStation Studios) on Fairgame$ and Digital Extremes on Warframe in C++ and/or Unreal Engine 5.</p>
+      <p className="font-sans">Here&apos;s some of the work that I&apos;m proudest of right now:</p>
 
 
       <Button variant="outline" asChild>
