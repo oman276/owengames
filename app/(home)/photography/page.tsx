@@ -31,6 +31,7 @@ export const metadata: Metadata = {
 export default async function Photography() {
   return (
     <div className="flex flex-col gap-4">
+      <h1 className="text-6xl font-header tracking-wide mb-8 text-center">PHOTOGRAPHY</h1>
       <PhotographyContent />
     </div>
   );

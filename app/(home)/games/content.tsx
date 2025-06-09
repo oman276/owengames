@@ -56,6 +56,18 @@ export const professionalGames: GamesListItem[] = [
 
 export const personalGames: GamesListItem[] = [
   {
+    title: "Horse Hearse",
+    date: "June 8, 2025",
+    collaborators: "Misha, Saaz, Isabelle, David, Colin",
+    role: "Design, Programming",
+    links: [
+      { name: "Play Online", url: "https://oman276.itch.io/horse-hearse" },
+      { name: "View Code", url: "https://github.com/zanada/horse-hearse" },
+    ],
+    desc: "A horse corpse delivery game, where the horse hearse driver is also a horse. Get those bodies to the glue factory before they rot! Reckless driving encouraged. Made in Godot.",
+  },
+
+  {
     title: "Wrath of Daedelus",
     date: "February 9, 2025",
     collaborators: "Nicole Planeta",
