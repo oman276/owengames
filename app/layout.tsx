@@ -2,7 +2,9 @@ import { BASE_URL } from "@/lib/constants";
 import { type Metadata } from "next";
 import { JetBrains_Mono } from "next/font/google";
 import { Anton } from "next/font/google";
+import { Tomorrow } from "next/font/google";
 import { EB_Garamond } from "next/font/google";
+import { Teko } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import { ThemeProvider } from "next-themes";
@@ -26,9 +28,9 @@ const fontSans = EB_Garamond({
   variable: "--font-sans",
 });
 
-const headlines = Anton({
+const headlines = Teko({
   subsets: ["latin"], // which characters to include
-  weight: "400",
+  weight: "600",
   variable: "--font-header" // which font weight(s) to preload
 });
 
