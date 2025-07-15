@@ -21,6 +21,7 @@ import {
 } from "@/components/ui/navigation-menu";
 import { navigationMenuTriggerStyle } from "@/components/ui/navigation-menu";
 import Link from "next/link";
+import { Analytics } from "@vercel/analytics/next"
 
 const fontSans = EB_Garamond({
   subsets: ["latin"],
@@ -106,6 +107,7 @@ export default async function RootLayout({
         >
           {children}
         </ThemeProvider>
+        <Analytics/>
       </body>
     </html>
   );
