@@ -106,8 +106,8 @@ export default async function RootLayout({
           enableSystem
         >
           {children}
+          <Analytics/>
         </ThemeProvider>
-        <Analytics/>
       </body>
     </html>
   );
