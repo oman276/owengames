@@ -28,3 +28,9 @@ npm-debug.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+pnpm-lock.yaml
+.venv/pyvenv.cfg
+pnpm-lock.yaml
+.venv/Scripts/python.exe
+.gitignore
+.vscode/tasks.json
