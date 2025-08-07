@@ -22,7 +22,7 @@ export function getOGData({
     type: type || "website",
     siteName: "OWENGAMES",
     title:
-      title !== "META_TITLE_HOME" ? `${title} | ${"META_TITLE_HOME"}` : title,
+      title !== "OWENGAMES" ? `${title} | ${"OWENGAMES"}` : title,
     description,
     url,
     images: [
