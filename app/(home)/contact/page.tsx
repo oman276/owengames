@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 }
 export default function Contact() {
   return (
-    <div className="flex flex-col items-center gap-4 justify-center min-h-screen text-center">
+    <div className="flex flex-col items-center gap-4 text-center">
       <h1 className="text-2xl font-bold">Contact Page - Under Construction</h1>
       <p>This is for getting in touch with me.</p>
     </div>

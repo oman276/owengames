@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 }
 export default function Photography() {
   return (
-    <div className="flex flex-col items-center gap-4 justify-center min-h-screen text-center">
+    <div className="flex flex-col items-center gap-4 text-center">
       <h1 className="text-2xl font-bold">
         Photography Page - Under Construction
       </h1>
