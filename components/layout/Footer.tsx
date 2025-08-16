@@ -1,10 +1,15 @@
 import {
+  PATH_RSS,
   URL_MY_GITHUB,
-  URL_MY_LINKEDIN,
   URL_MY_ITCH,
-  URL_MY_PHOTOGRAPHY_INSTAGRAM
+  URL_MY_LINKEDIN,
+  URL_MY_PHOTOGRAPHY_INSTAGRAM,
 } from "@/lib/constants";
-import { GitHubLogoIcon, LinkedInLogoIcon, InstagramLogoIcon } from "@radix-ui/react-icons";
+import {
+  GitHubLogoIcon,
+  InstagramLogoIcon,
+  LinkedInLogoIcon,
+} from "@radix-ui/react-icons";
 import NavButton from "../common/NavButton";
 
 export default function Footer() {
@@ -27,6 +32,9 @@ export default function Footer() {
           </NavButton>
           <NavButton href={URL_MY_ITCH} className="hidden sm:flex">
             ITCH.IO
+          </NavButton>
+          <NavButton href={PATH_RSS} className="hidden sm:flex">
+            RSS
           </NavButton>
         </nav>
       </section>

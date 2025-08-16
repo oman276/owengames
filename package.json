@@ -16,6 +16,7 @@
     "@radix-ui/react-navigation-menu": "^1.2.1",
     "@radix-ui/react-separator": "^1.1.1",
     "@radix-ui/react-slot": "^1.1.0",
+    "@types/rss": "^0.0.32",
     "@vercel/analytics": "^1.5.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
@@ -30,6 +31,7 @@
     "react-use": "^17.6.0",
     "remark": "^15.0.1",
     "remark-html": "^16.0.1",
+    "rss": "^1.2.2",
     "tailwind-merge": "^2.5.4",
     "tailwindcss-animate": "^1.0.7"
   },
