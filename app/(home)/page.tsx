@@ -1,22 +1,5 @@
 import { Button } from "@/components/ui/button";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
 import Link from "next/link";
-import {
-  NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuIndicator,
-  NavigationMenuItem,
-  NavigationMenuLink,
-  NavigationMenuList,
-  NavigationMenuTrigger,
-  NavigationMenuViewport,
-} from "@/components/ui/navigation-menu";
-import { navigationMenuTriggerStyle } from "@/components/ui/navigation-menu";
 
 export default async function Home() {
   return (
@@ -36,6 +19,9 @@ export default async function Home() {
         <Link href="https://www.linkedin.com/in/owen-gallagher-40b1721b4/">
           LinkedIn
         </Link>
+      </Button>
+      <Button variant="outline" asChild>
+        <Link href="https://owengames.com/feed.xml">RSS</Link>
       </Button>
     </div>
   );
