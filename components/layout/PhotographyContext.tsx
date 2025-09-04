@@ -31,7 +31,10 @@ export default function PhotographyContent() {
       </div>
       <div className="w-full max-w-[72ch] mx-auto">
         <p>
-          A nice custom masonry layout, built by Josiah Plett, stolen shamelessly by me. {" "}
+          A nice custom masonry layout, built by <InlineLink href="https://plett.dev/">
+            Josiah Plett
+          </InlineLink>
+          , stolen shamelessly by me. {" "}
           <InlineLink href="https://github.com/plettj/plett.dev">
             Code
           </InlineLink>
