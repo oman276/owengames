@@ -10,6 +10,7 @@ export type GamesListItem = {
   role: string;
   links: ListLink[];
   desc: string;
+  tags?: string[];
 };
 
 export default function GamesList({ games }: { games: GamesListItem[] }) {

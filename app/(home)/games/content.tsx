@@ -4,7 +4,7 @@ import { SimpleGamesListItem } from "@/components/layout/SimpleGamesList";
 export const professionalGames: GamesListItem[] = [
   {
     title: "Fairgame$",
-    date: "Jan - April 2025",
+    date: "Jan - April 2025, Sept - Dec 2025",
     collaborators: "Haven Interactive Studios, PlayStation Studios",
     role: "Gameplay Programmer Intern",
     links: [
