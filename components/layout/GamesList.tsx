@@ -1,3 +1,5 @@
+import { PATH_GAMES_IMAGES } from "@/lib/constants";
+
 export type ListLink = {
   name: string;
   url: string;
@@ -22,12 +24,12 @@ export default function GamesList({ games }: { games: GamesListItem[] }) {
           key={index}
           className="flex flex-col md:flex-row gap-6 items-start"
         >
-          <div className="w-full md:w-1/3 flex-shrink-0">
-            {game.imageUrl && ( // Only render if imageUrl exists
+          <div className="w-full md:w-1/3 flex-shrink-0 h-48 md:h-64">
+            {game.imageUrl && (
               <img
-                src={`PATH_GAMES_IMAGES/${game.imageUrl}`}
+                src={`${PATH_GAMES_IMAGES}/${game.imageUrl}`}
                 alt={game.title}
-                className="w-full h-auto object-cover rounded-lg shadow-md"
+                className="w-full h-full object-cover rounded-lg shadow-md"
               />
             )}
           </div>
