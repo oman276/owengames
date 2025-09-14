@@ -4,7 +4,7 @@ import { SimpleGamesListItem } from "@/components/layout/SimpleGamesList";
 export const professionalGames: GamesListItem[] = [
   {
     title: "Fairgame$",
-    date: "Jan - April 2025",
+    date: "Jan - April 2025, Sept - Dec 2025",
     collaborators: "Haven Interactive Studios, PlayStation Studios",
     role: "Gameplay Programmer Intern",
     links: [
@@ -14,6 +14,7 @@ export const professionalGames: GamesListItem[] = [
       },
     ],
     desc: "Gameplay Programmer on an upcoming first-party PlayStation heist PvP game. Worked in Unreal Engine 5 and C++ on various systems, including item interaction.",
+    imageUrl: "fairgames.jpg",
   },
 
   {
@@ -33,6 +34,7 @@ export const professionalGames: GamesListItem[] = [
       },
     ],
     desc: "Gameplay Programmer on an online action MMO with 80 million players. I worked in on abilities for the headlining boss enemies in Warframe: 1999, as well as bugfixes for abilities, weapons, physics, and more. Used C++ and Lua.",
+    imageUrl: "warframe.png",
   },
 
   {
@@ -51,6 +53,7 @@ export const professionalGames: GamesListItem[] = [
       },
     ],
     desc: "Gameplay Programmer on an upcoming 3D detective game, primarily working on UI, optimization, and character movement. Used Unity and C#.",
+    imageUrl: "keyword.jpg",
   },
 ];
 
@@ -65,6 +68,7 @@ export const personalGames: GamesListItem[] = [
       { name: "View Code", url: "https://github.com/zanada/horse-hearse" },
     ],
     desc: "A horse corpse delivery game, where the horse hearse driver is also a horse. Get those bodies to the glue factory before they rot! Reckless driving encouraged. Made in Godot.",
+    imageUrl: "horsehearse.png",
   },
 
   {
@@ -73,9 +77,13 @@ export const personalGames: GamesListItem[] = [
     collaborators: "Nicole Planeta",
     role: "Design, Programming",
     links: [
-      { name: "Play Online", url: "https://eternalon03.itch.io/wrath-of-daedalus" },
+      {
+        name: "Play Online",
+        url: "https://eternalon03.itch.io/wrath-of-daedalus",
+      },
       { name: "View Code", url: "https://github.com/oman276/UWJamW25" },
     ],
+    imageUrl: "daedalus.png",
     desc: "An action game where you play as a steampunk Icarus, who must fly around an arena defeating an endless set of his father Daedelus' mechanical creations, while making sure his wings don't get so hot that they melt. Made in Godot.",
   },
 
@@ -88,6 +96,7 @@ export const personalGames: GamesListItem[] = [
       { name: "Play Online", url: "https://oman276.itch.io/first-snow" },
       { name: "View Code", url: "https://github.com/oman276/winter" },
     ],
+    imageUrl: "firstsnow.png",
     desc: "A short narrative game about a father looking for his daughter who has just returned from war. My first time using Ink to create a branching story, with the gameplay being in Godot. I wanted to expand this story, but it proved trickier to pin down than I hoped.",
   },
 
@@ -103,6 +112,7 @@ export const personalGames: GamesListItem[] = [
         url: "https://github.com/kertox662/GDC-GameJam-S24",
       },
     ],
+    imageUrl: "burntout.png",
     desc: "An 'anti-cozy' game, where you experience the feeling of gamified burnout, spreading yourself too thin over too many tasks, based on my own experiences as a student. My first full game using Godot.",
   },
 
@@ -115,6 +125,7 @@ export const personalGames: GamesListItem[] = [
       { name: "Play Online", url: "https://eternalon03.itch.io/turtle-golf" },
       { name: "View Code", url: "https://github.com/oman276/TurtleV3" },
     ],
+    imageUrl: "turtle.png",
     desc: "My first long term, non-game jam project. Helped lead a team in designing and iterating on a drag-and-shoot adventure game starring a very slippery turtle. Uses Unity and C#.",
   },
 
@@ -124,6 +135,7 @@ export const personalGames: GamesListItem[] = [
     collaborators: "Liam McArthur, Sophie Thomas-Salvosa, Tanishi Naik",
     role: "Design, Programming",
     links: [{ name: "Play Online", url: "https://oman276.itch.io/charonet" }],
+    imageUrl: "charonet.png",
     desc: "A narrative game created for a school assignment in Summer 2023. Some excerpts from itch.io comments: \"i have cried no less than three times from this game now... razor sharp writing. thank you.\" Made in Twine. (A hint: if you haven't seen the credits, the game's not over.)",
   },
 
@@ -136,6 +148,7 @@ export const personalGames: GamesListItem[] = [
       { name: "Play Online", url: "https://oman276.itch.io/uprooting-for-you" },
       { name: "View Code", url: "https://github.com/oman276/GI-Jam-W23" },
     ],
+    imageUrl: "uprooting.png",
     desc: "A competitive local multiplayer game about winning the love of a beautiful tractor. Made in Unity and C#.",
   },
 
@@ -147,6 +160,7 @@ export const personalGames: GamesListItem[] = [
     links: [
       { name: "Play Online", url: "https://oman276.itch.io/dating-is-hell" },
     ],
+    imageUrl: "dating.png",
     desc: "A unique dating sim where you need to rekindle the spark with an old flame to exit dating hell.",
   },
 
@@ -161,6 +175,7 @@ export const personalGames: GamesListItem[] = [
         url: "https://oman276.itch.io/washing-machine-of-doom",
       },
     ],
+    imageUrl: "washingmachine.png",
     desc: "A puzzle-platformer where you play as a washing machine with a grudge against the human race.",
   },
 
@@ -173,6 +188,7 @@ export const personalGames: GamesListItem[] = [
       { name: "Play Online", url: "https://oman276.itch.io/orientation-day" },
       { name: "View Code", url: "https://github.com/oman276/orientation-day" },
     ],
+    imageUrl: "orientation.png",
     desc: "An adventure through a dark, abandoned laboratory. Can you find the secret of Manifest Corportation and escape with your life?",
   },
 ];
