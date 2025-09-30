@@ -1,7 +1,11 @@
-import { PATH_WRITING } from "@/lib/constants";
-import { ArrowLeftIcon } from "@radix-ui/react-icons";
+import { EB_Garamond } from "next/font/google";
 import Image from "next/image";
-import NavButton from "../NavButton";
+
+const fontSubtitle = EB_Garamond({
+  subsets: ["latin"],
+  weight: ["400", "600"],
+  variable: "--font-subtitle",
+});
 
 export default function PostHeader({
   title,
@@ -22,10 +26,11 @@ export default function PostHeader({
         </h1>
       </div>
       {subtitle && (
-        <p className="text-lg font-thin text-muted-foreground text-center">
+        <p className="text-lg font-subtitle text-muted-foreground text-center">
           {subtitle}
         </p>
       )}
+      {date && <p className="font-subtitle text-center italic">{date}</p>}
       {/*
       <div className="flex justify-between items-center pt-6 pb-4 border-b">
         <p>{date}</p>
