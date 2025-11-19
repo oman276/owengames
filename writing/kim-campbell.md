@@ -3,7 +3,7 @@ title: "Kim Campbell and the Biggest L in Canadian History"
 subtitle: ""
 preview: "OPG preview"
 date: "March 14, 2025"
-tags: ["quick", "writing"]
+tags: ["quick", "writing", "misc"]
 lat: "..."
 long: "..."
 ---

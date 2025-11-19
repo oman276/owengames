@@ -3,7 +3,7 @@ title: "The New God"
 subtitle: ""
 preview: "OPG preview"
 date: "November 8, 2024"
-tags: ["quick", "writing"]
+tags: ["quick", "writing", "tech", "best"]
 lat: "..."
 long: "..."
 ---

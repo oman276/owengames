@@ -3,7 +3,7 @@ title: "Be Greedy"
 subtitle: ""
 preview: ""
 date: "October 31, 2025"
-tags: ["quick", "writing"]
+tags: ["quick", "writing", "misc"]
 lat: "..."
 long: "..."
 ---

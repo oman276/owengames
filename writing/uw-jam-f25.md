@@ -3,7 +3,7 @@ title: "My Favourite Games From The UW Fall 2025 Game Jam"
 subtitle: ""
 preview: ""
 date: "October 10, 2025"
-tags: ["quick", "writing"]
+tags: ["quick", "writing", "game dev"]
 lat: "..."
 long: "..."
 ---

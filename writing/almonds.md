@@ -3,7 +3,7 @@ title: "The Cask Of Almondtadillo"
 subtitle: ""
 preview: "The thousand injuries of Fortunato I had borne as I best could, but when he ventured upon insult I vowed revenge."
 date: "September 26, 2025"
-tags: ["quick", "writing"]
+tags: ["quick", "writing", "humor"]
 lat: "..."
 long: "..."
 ---

@@ -3,7 +3,7 @@ title: "I Know Writers Who Use Subtext, And They're All Cowards"
 subtitle: "A Review Of Seed Of The Sacred Fig (2024)"
 preview: ""
 date: "October 21, 2025"
-tags: ["quick", "writing"]
+tags: ["quick", "writing", "art"]
 lat: "..."
 long: "..."
 ---

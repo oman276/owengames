@@ -3,14 +3,14 @@ title: "Trying To Sell You On Inner Tube Water Polo"
 subtitle: ""
 preview: "OPG preview"
 date: "December 1, 2023"
-tags: ["quick", "writing"]
+tags: ["quick", "writing", "misc"]
 lat: "..."
 long: "..."
 ---
 
-Inner tube water polo. The *people’s* sport.
+Inner tube water polo. The _people’s_ sport.
 
-Any devoted fan would attest that there’s simply no greater thrill on Earth than sitting on the edge of the PAC stands, watching the waves roll in our non-regulation size pool, feeling the tubes of the champions crash against each other, and hearing the thunderclap of shots sent and saved. 
+Any devoted fan would attest that there’s simply no greater thrill on Earth than sitting on the edge of the PAC stands, watching the waves roll in our non-regulation size pool, feeling the tubes of the champions crash against each other, and hearing the thunderclap of shots sent and saved.
 
 Those who say that would be wrong. A greater thrill is playing.
 
@@ -20,7 +20,7 @@ For those who haven’t been exposed to the sports sensation sweeping the school
 
 Yes, you play inner tube water polo entirely from inside the titular inner tube. Some people look at that rule and see a game that’s neutered, or less skilled in some way, just because you aren’t physically moving around and tackling the other players. Those people are only sort of right.
 
-The floor for the amount of physical athleticism is much lower than in regular water polo, helped by the ability to “rest” and float passively on the water in a way you can’t during the non-tubular version of the game. But the ceiling of talent is as high as any “real” sport you can play. 
+The floor for the amount of physical athleticism is much lower than in regular water polo, helped by the ability to “rest” and float passively on the water in a way you can’t during the non-tubular version of the game. But the ceiling of talent is as high as any “real” sport you can play.
 
 You need speed and strength, sure, but that’s just the surface. You need to be able to read your enemies, and have the game-sense to position yourself right where they need to be, or slip behind them without them noticing- a difficult thing to do when propelling yourself requires you to splash.
 
@@ -40,13 +40,13 @@ Some inner tube water polo players say that the greatest thrill you can have is 
 
 \~
 
-I think the thing that surprises people the most about this sport is how seriously everyone takes it. At first glance, it can seem pretty silly: a dozen college kids flailing around in inflatable floaty tubes, bouncing off each other and yelling at the top of their lungs. But look any closer and you can see that these people *care* about what they do.
+I think the thing that surprises people the most about this sport is how seriously everyone takes it. At first glance, it can seem pretty silly: a dozen college kids flailing around in inflatable floaty tubes, bouncing off each other and yelling at the top of their lungs. But look any closer and you can see that these people _care_ about what they do.
 
 Teams have rehearsed strategies and coordinated cheers and matching branded shorts. You can feel the tenseness of the sidelines- not to mention the crowd- as the ball goes back and forth and again.
 
-It’s a give and take situation, of course. Everyone on some level knows that these sports don’t *really* matter: they aren’t matters of life and death, nor even a matter of personal prosperity (like getting an education at all). In order for you to feel like this, you need to take the first step. 
+It’s a give and take situation, of course. Everyone on some level knows that these sports don’t _really_ matter: they aren’t matters of life and death, nor even a matter of personal prosperity (like getting an education at all). In order for you to feel like this, you need to take the first step.
 
-If you want to create a world in which people care about anything, you need to believe in it too. While this confidence is irrational at start, rationality often grows *around* your own beliefs. The most reliable way to create the world you want is to pretend you’re finally there.
+If you want to create a world in which people care about anything, you need to believe in it too. While this confidence is irrational at start, rationality often grows _around_ your own beliefs. The most reliable way to create the world you want is to pretend you’re finally there.
 
 It’s shocking how effective a change strategy (believe in something extraordinarily hard) actually is, huh.
 
@@ -54,7 +54,7 @@ It’s shocking how effective a change strategy (believe in something extraordin
 
 You slip out the backdoor of PAC and step into the biting, punishing Waterloo air. It’s a night with clouds, and a slight sprinkle of snow- the first of the year- but the sky is considerate enough to give you a full view of the moon. You’re wet, and it’s cold.
 
-Walking back, you can feel a repressed frustration. You had fun, of course, but you *wanted* to win. It’s intensely petty to admit it, but it bothers you.
+Walking back, you can feel a repressed frustration. You had fun, of course, but you _wanted_ to win. It’s intensely petty to admit it, but it bothers you.
 
 But there’s no time for frustration to fester into self-pity, as the people around you start directing that frustration by colluding about what’s next. Making plans to dominate next season, which turns into eagerly making plans on how we’ll fill our lives beyond the game.
 

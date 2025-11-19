@@ -3,7 +3,7 @@ title: "How To Defeat Mark Zuckerburg Forever"
 subtitle: "(if you have an Android phone)"
 preview: "OPG preview"
 date: "June 28, 2024"
-tags: ["quick", "writing"]
+tags: ["quick", "writing", "tech"]
 lat: "..."
 long: "..."
 ---
@@ -16,21 +16,21 @@ At any rate, I'm trapped. I need easy access to Instagram on my phone or my comp
 
 Snapchat got popular and they introduced stories. TikTok got popular and they introduced Reels. A messaging system? Fuck it, Meta has like 10 of these already\! What's one more? I think there's still a store but I'm too scared to check.
 
-Over the last year or so, I've grown a stronger aversion to social platforms which are too hyper-generalized in function, as well as platforms which shove algorithmically-recommended content in your face. Instagram is *aggressively* both of these. I want to feel like I have agency over my digital consumption, that I'm *choosing* how I spend my time and what I take in. I don't want to passively digest junk food, I want to find the delicious, gourmet Lazeez and consume that instead.
+Over the last year or so, I've grown a stronger aversion to social platforms which are too hyper-generalized in function, as well as platforms which shove algorithmically-recommended content in your face. Instagram is _aggressively_ both of these. I want to feel like I have agency over my digital consumption, that I'm _choosing_ how I spend my time and what I take in. I don't want to passively digest junk food, I want to find the delicious, gourmet Lazeez and consume that instead.
 
-But what is there to do? Instagram knows it has me trapped, so it's turned the enshittification dial all the way up. Posts are strategically arranged to draw me into distraction and away from the actual life updates I *told Instagram I wanted to see.* There's no way I can just take an axe and chop everything I hate out of the app.
+But what is there to do? Instagram knows it has me trapped, so it's turned the enshittification dial all the way up. Posts are strategically arranged to draw me into distraction and away from the actual life updates I _told Instagram I wanted to see._ There's no way I can just take an axe and chop everything I hate out of the app.
 
-At least, not out of the *app.*
+At least, not out of the _app._
 
 Let me introduce you to my beautiful friend the Firefox Mobile app and his handsome wingman, the Firefox Mobile Extensions Store.
 
-I've been using this as my mobile web browser for about a week now and I have no idea how I lived without it. I'm not even an anti-Chrome guy, but the mobile internet is so comically unusable without AdBlock, it's startling to me that anyone uses anything else. Don't you guys want to *see* the website?
+I've been using this as my mobile web browser for about a week now and I have no idea how I lived without it. I'm not even an anti-Chrome guy, but the mobile internet is so comically unusable without AdBlock, it's startling to me that anyone uses anything else. Don't you guys want to _see_ the website?
 
 But that's not what this article is about. I realized that if I could block ads, surely I could block other things. Say, the specific elements of a website that irritate me and I wish would just go away.
 
 Instagram has a mobile site.
 
-Using the extension IGPlus, I was able to remove *every* aspect of Instagram that bothered me. I turned off Reels, the Explore page, the non-chronological main feed. Then, drunk on power, I turned off like counts and stories, and then changed the font. I don't even hate Instagram's font, but I changed it because *fuck you, I own the computer and I'm the one who gets to decide how it looks.* 
+Using the extension IGPlus, I was able to remove _every_ aspect of Instagram that bothered me. I turned off Reels, the Explore page, the non-chronological main feed. Then, drunk on power, I turned off like counts and stories, and then changed the font. I don't even hate Instagram's font, but I changed it because _fuck you, I own the computer and I'm the one who gets to decide how it looks._
 
 It's perfect. I unfollowed like 800 people I barely knew and now my feed is entirely cool things going on in the KW region and one picture per day of someone I actually care about.
 
@@ -38,9 +38,8 @@ The best part? You can do this for other sites, too. I installed a bunch of exte
 
 Look, we all know that social media is bad for us. You don't need that lecture from me. It's destroying our attention span, our brains did not evolve to know what is going on across the entire planet at all times, etc. Going cold turkey is probably the healthiest way to handle this stuff, but it's not actually practical for most people.
 
-To be honest, though, that's not why I'm doing this. I'm just picky and particular and I want the tech I use to form itself around me. I want what I want and *only* what I want.
+To be honest, though, that's not why I'm doing this. I'm just picky and particular and I want the tech I use to form itself around me. I want what I want and _only_ what I want.
 
-Big Tech hasn't wrested the web away from us just yet, and we can still use it's openness and adaptability to our advantage. We can filter out the garbage and have a healthier relationship to the platforms that dominate our lives. We can finally start to assert ourselves, and let *our* tastes change the platforms—not just let our tastes be influenced by the platforms.
+Big Tech hasn't wrested the web away from us just yet, and we can still use it's openness and adaptability to our advantage. We can filter out the garbage and have a healthier relationship to the platforms that dominate our lives. We can finally start to assert ourselves, and let _our_ tastes change the platforms—not just let our tastes be influenced by the platforms.
 
-And then, once you try it, maybe I can convince you to join me and become an email newsletter guy. 
-
+And then, once you try it, maybe I can convince you to join me and become an email newsletter guy.

@@ -3,7 +3,7 @@ title: "Spring"
 subtitle: ""
 preview: "OPG preview"
 date: "March 17, 2023"
-tags: ["quick", "writing"]
+tags: ["quick", "writing", "art"]
 lat: "..."
 long: "..."
 ---
@@ -34,6 +34,6 @@ like ice, of freezing pain
 but
 
 this time of year, it always seems  
-to wash out   
-with the   
+to wash out  
+with the  
 rain.

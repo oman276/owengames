@@ -3,7 +3,7 @@ title: "What's So Good/Bad About AI?"
 subtitle: ""
 preview: "In 2013, Tesla CEO and notable buffoon Elon Musk publicly predicted that the cars his company produced would be “90% autonomous”—ie, self-driving—by 2016."
 date: "September 14, 2025"
-tags: ["quick", "writing"]
+tags: ["quick", "writing", "tech", "best"]
 lat: "..."
 long: "..."
 ---

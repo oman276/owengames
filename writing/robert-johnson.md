@@ -3,20 +3,19 @@ title: "The Many Deaths of Robert Johnson"
 subtitle: ""
 preview: "ROBERT JOHNSON DEAD AT 27"
 date: "July 30, 2025"
-tags: ["quick", "writing"]
+tags: ["quick", "writing", "art"]
 lat: "..."
 long: "..."
 ---
 
+[_ROBERT JOHNSON DEAD AT 27_](https://rockhall.com/inductees/robert-johnson/)
 
-[*ROBERT JOHNSON DEAD AT 27*](https://rockhall.com/inductees/robert-johnson/)
+_Robert Johnson, whose blues could be heard at street corners all across the Delta, was found dead in Itta Bena, Mississippi this morning, according to police. Johnson’s mastery of the guitar was clear to most everyone who had the fortune of hearing him play. He had only last year released his first singles, and was preparing for a major appearance at Carnegie Hall._
 
-*Robert Johnson, whose blues could be heard at street corners all across the Delta, was found dead in Itta Bena, Mississippi this morning, according to police. Johnson’s mastery of the guitar was clear to most everyone who had the fortune of hearing him play. He had only last year released his first singles, and was preparing for a major appearance at Carnegie Hall.*
+_His cause of death remains unknown._
 
-*His cause of death remains unknown.*
-
-*Jackson Chronicle*  
-*August 16, 1938*
+_Jackson Chronicle_  
+_August 16, 1938_
 
 \~
 
@@ -26,29 +25,29 @@ He felt the familiar deflation of an exciting evening slowly winding down. As Ro
 
 He didn’t have a home to head back to, but he certainly didn’t have any trouble finding beds.
 
-A slender, blonde woman stepped onto the seat next to him, sliding a glass of whiskey across the table. Robert knew the look in her eye—in fact, he had seen it when he locked eyes with her during his set.  He saw the question she was about to ask before she said it.
+A slender, blonde woman stepped onto the seat next to him, sliding a glass of whiskey across the table. Robert knew the look in her eye—in fact, he had seen it when he locked eyes with her during his set. He saw the question she was about to ask before she said it.
 
 “Say, Mister Johnson, just where did you learn to play that guitar?”
 
-He smiled softly, and took a sip of the whiskey, hoping it would impart his answer with more gravitas. Robert Johnson got a lot of interesting questions from curious women over drinks, but this one was his favourite. He had rehearsed this performance hundreds of times before, and he knew it was a crowdpleaser. 
+He smiled softly, and took a sip of the whiskey, hoping it would impart his answer with more gravitas. Robert Johnson got a lot of interesting questions from curious women over drinks, but this one was his favourite. He had rehearsed this performance hundreds of times before, and he knew it was a crowdpleaser.
 
-He leaned in close enough that he could feel her breath on his cheek. “Can I trust you with a secret?” he asked. She nodded, leaning forwards too, eyes bright and eager. 
+He leaned in close enough that he could feel her breath on his cheek. “Can I trust you with a secret?” he asked. She nodded, leaning forwards too, eyes bright and eager.
 
 Robert watched her reaction carefully. An artist should always be aware of their audience.
 
 “It was a deal…”
 
-*“...deal with the devil\!” Robert’s mother exclaimed, throwing a book at his head. He ducked just in time to feel the leather-bound spine brush over his hair as it dented the old wooden wall behind him.* 
+_“...deal with the devil\!” Robert’s mother exclaimed, throwing a book at his head. He ducked just in time to feel the leather-bound spine brush over his hair as it dented the old wooden wall behind him._
 
-*“You’ve turned your back on the Lord, boy. Turned your back on your wife. She’d be alive if you didn’t forsake Him with your godless music.”*
+_“You’ve turned your back on the Lord, boy. Turned your back on your wife. She’d be alive if you didn’t forsake Him with your godless music.”_
 
-*Everything in Robert’s body screamed at him to run, but he slowly stood up, looked in his mother’s eyes, and saw tears. They both paused to catch their breath, and…*
+_Everything in Robert’s body screamed at him to run, but he slowly stood up, looked in his mother’s eyes, and saw tears. They both paused to catch their breath, and…_
 
 …and then the woman broke into a giggle. Robert leaned back, satisfied with his performance, taking another sip of the whiskey. She wouldn’t like the real answer, anyways.
 
-“Well, it clearly worked. You’re gonna be a *legend* someday, Mister.”
+“Well, it clearly worked. You’re gonna be a _legend_ someday, Mister.”
 
-The woman kept talking, but her voice got dimmer as Robert kept rolling that word around in his head. *Legend, legend, legend.* It’s what the old man from the record company said after his first session. It’s what the promoter who organized his imminent tour exclaimed upon meeting him. It’s what every eager listener and bar patron across the Delta had been telling him for years.
+The woman kept talking, but her voice got dimmer as Robert kept rolling that word around in his head. _Legend, legend, legend._ It’s what the old man from the record company said after his first session. It’s what the promoter who organized his imminent tour exclaimed upon meeting him. It’s what every eager listener and bar patron across the Delta had been telling him for years.
 
 It’s why he had worked himself to the damn bone for years, cultivating his talent to become the best blues guitarist the South had ever seen. People bought the idea that his talent was miraculous—that it could have been a blessing from Satan—because it seemed so effortless to him.
 
@@ -66,7 +65,7 @@ Using the last of his strength, he rolled over to steady himself on his hands an
 
 Robert Johnson snapped open his eyes. Feeling intense vertigo, he reached out and grabbed the first thing he could find to keep him stable on his feet.
 
-*I’m alive, I’m alive,* he thought, trying to steady his breath.
+_I’m alive, I’m alive,_ he thought, trying to steady his breath.
 
 Robert looked up to get his bearings. The first thing he saw was the whiskey in his hand. The next thing he saw was the beautiful brunette in the bar seat next to him looked very, very confused.
 
@@ -80,21 +79,21 @@ Not his best performance by a country mile, but it would have to do. He hoped th
 
 Robert looked around the bar some more, still trying to piece together where he was. Was this a dream? Was the bar before a dream? He recognized the familiar wood-paneled floor and silver hanging chandelier. There was a man on the piano softly playing an old blues standard—maybe even one he had covered before—but for the life of him, he…
 
-*…he didn’t know where he was. Eventually, the different beds, nights, women, all became a blur—particularly when he had been indulging in whiskey, which he did after almost every show.*
+_…he didn’t know where he was. Eventually, the different beds, nights, women, all became a blur—particularly when he had been indulging in whiskey, which he did after almost every show._
 
-*Everything just seemed uncomfortable. The bed was too hot, the pillow too small, the crickets too loud in the windows. He’d been sleeping worse lately—too much time on the road, even for Robert.*
+_Everything just seemed uncomfortable. The bed was too hot, the pillow too small, the crickets too loud in the windows. He’d been sleeping worse lately—too much time on the road, even for Robert._
 
-*He shifted up in bed to try and make sense of his surroundings. A damp apron hanging up on the wall, dishes still in the sink. A gramophone and a handful of 45s—blues, he hoped. All clues to the kind of person whose bed Robert was in.*
+_He shifted up in bed to try and make sense of his surroundings. A damp apron hanging up on the wall, dishes still in the sink. A gramophone and a handful of 45s—blues, he hoped. All clues to the kind of person whose bed Robert was in._
 
-*He felt something shift below him as the woman turned over in her sleep to face him, the outline of her hair faintly visible from the cracks of moonlight let in through the blinds. He studied her closely. It's critical for a performer to be aware of their audience, no matter…*
+_He felt something shift below him as the woman turned over in her sleep to face him, the outline of her hair faintly visible from the cracks of moonlight let in through the blinds. He studied her closely. It's critical for a performer to be aware of their audience, no matter…_
 
 …no matter what happens on stage, no matter the ruckus going on in the crowd, no matter how rattled or scared the artist was.
 
-But Robert was rattled, so he didn’t hear the angry man approaching from behind. He didn’t figure out the yelling he heard was someone yelling at *him* until two calloused hands ripped him from the chair and threw him to the ground. His head slammed against the wood-panelled floors, his vision blurred, and the voice suddenly pierced its way straight to the front of his mind.
+But Robert was rattled, so he didn’t hear the angry man approaching from behind. He didn’t figure out the yelling he heard was someone yelling at _him_ until two calloused hands ripped him from the chair and threw him to the ground. His head slammed against the wood-panelled floors, his vision blurred, and the voice suddenly pierced its way straight to the front of his mind.
 
 “You know whose wife you’re talking to?”
 
-Robert would have replied *no, actually, I don’t think I know anything right now,* but at that moment the man’s boot slammed into his gut and the words slipped from his mind as the air fled from his lungs. Robert writhed on the ground, his stomach taking kick after kick after kick, and then the man’s boot came for his head—
+Robert would have replied _no, actually, I don’t think I know anything right now,_ but at that moment the man’s boot slammed into his gut and the words slipped from his mind as the air fled from his lungs. Robert writhed on the ground, his stomach taking kick after kick after kick, and then the man’s boot came for his head—
 
 \~
 
@@ -106,11 +105,11 @@ Robert jolted awake as a fist collided with his face. His vision suddenly double
 
 \~
 
-Robert was rattling around in the backseat of an airplane, surrounded by other terrified musicians as a voice ringing in his ears repeated “Mayday\! Mayday\! We’re going down\! Uncontrolled descent\!” *I’ve never been on an airplane before,* Robert thought—
+Robert was rattling around in the backseat of an airplane, surrounded by other terrified musicians as a voice ringing in his ears repeated “Mayday\! Mayday\! We’re going down\! Uncontrolled descent\!” _I’ve never been on an airplane before,_ Robert thought—
 
 \~
 
-Robert gasped, and water filled his lungs and stung his eyes. Face down, he tried to move his body but found it sluggish and insubordinate. He knew how to swim—didn’t he? —but his limbs wouldn’t move together, and he only succeeded in pushing himself further underwater. It was only as his vision blurred and the panic gave way to a light-headed bliss that he saw the bottles in both hands—  
+Robert gasped, and water filled his lungs and stung his eyes. Face down, he tried to move his body but found it sluggish and insubordinate. He knew how to swim—didn’t he? —but his limbs wouldn’t move together, and he only succeeded in pushing himself further underwater. It was only as his vision blurred and the panic gave way to a light-headed bliss that he saw the bottles in both hands—
 
 \~
 
@@ -130,29 +129,29 @@ He could feel it. He could feel it like a hand on his back.
 
 In a single motion, Robert whipped around and landed a punch square in the nose of the drunk who had been unwise enough to try and offer support. The man fell like a rock. Robert can’t tell if he was breathing or not.
 
-Robert, ever the showman, turned automatically to see what the crowd thought of his performance. He met the eyes of one patron after another. *Fear. Pity. Hate. Hate. Hate.*
+Robert, ever the showman, turned automatically to see what the crowd thought of his performance. He met the eyes of one patron after another. _Fear. Pity. Hate. Hate. Hate._
 
 The threat had moved. It was all around him now.
 
-*No. Not now. Not again.*
+_No. Not now. Not again._
 
 Robert bolted through the crowd, elbowing and shoving his way through the stunned masses, eyes on the door. He hit the door at a run with his shoulder, nearly knocking it off its hinges. He spilled onto the empty street, into an all-encompassing silence.
 
-He only took a second to catch his breath before he began to run. He didn’t know where he was going other than *away.*
+He only took a second to catch his breath before he began to run. He didn’t know where he was going other than _away._
 
 He threw off his jacket, letting his instincts guide him as he sprinted through the streets. It felt like somewhere from his old Delta stomping grounds, but it was quiet as a whisper. Not a soul was on the street besides him. Not a single cricket dared to sing, as the pale moonlight…
 
-*…moonlight bathed Robert Johnson as he sat alone, in the old graveyard—the last place he could get away from everything—flooding the cemetery with sound. He didn’t know what time it was, he didn’t know when he’d last slept, and he didn’t care.* 
+_…moonlight bathed Robert Johnson as he sat alone, in the old graveyard—the last place he could get away from everything—flooding the cemetery with sound. He didn’t know what time it was, he didn’t know when he’d last slept, and he didn’t care._
 
-*The only thing he wanted to think about was the music, beautiful and surgical. His focus was on the sensation of his hands on the guitar, of the precise twitches of his fingers he needed to make the exact right chord at the exact right time, on the timbre of his strong voice, ringing out into the night.*
+_The only thing he wanted to think about was the music, beautiful and surgical. His focus was on the sensation of his hands on the guitar, of the precise twitches of his fingers he needed to make the exact right chord at the exact right time, on the timbre of his strong voice, ringing out into the night._
 
-*Robert was singing for no one but himself and the ghosts in the graveyard. He sang and sang and sang and…*
+_Robert was singing for no one but himself and the ghosts in the graveyard. He sang and sang and sang and…_
 
 …and ran and ran, tears blowing off his face.
 
 But despite the fire inside him, Robert Johnson was only a man, and his legs gave way faster than his heart as he crumpled to the ground. His breathing slowed as the mud and dust of the old dirt crossroad collected on his slacks and undershirt. He grabbed a fistful of earth.
 
-*I’m safe. I’m safe. I’m alive now.*
+_I’m safe. I’m safe. I’m alive now._
 
 And he did really feel safe, hands anchored in the ground, until he heard the gentleman whistling behind him.
 
@@ -164,11 +163,11 @@ The first thing Robert noticed about the stranger was just how impeccably dresse
 
 At first, the gentleman was still. Then, slowly, a gleaming white smile became visible from beneath the rim of the hat. “No need for me to do that”, he replied.
 
-The world was silent and still. Even the blades of grass seemed to be frozen in fear. Robert took a few steps back, then tripped and fell over his own feet, landing on the ground. He snapped his head back to where the gentleman was, only to find that he was gone. For a brief moment, Robert wondered if the man was even real at all. 
+The world was silent and still. Even the blades of grass seemed to be frozen in fear. Robert took a few steps back, then tripped and fell over his own feet, landing on the ground. He snapped his head back to where the gentleman was, only to find that he was gone. For a brief moment, Robert wondered if the man was even real at all.
 
 “Aren’t you savouring this, Mister Johnson?”
 
-Robert whipped his head around to see the gentleman behind him, hands held behind his back, still bearing that gleaming, sinister grin. 
+Robert whipped his head around to see the gentleman behind him, hands held behind his back, still bearing that gleaming, sinister grin.
 
 “After all, this is what you wanted.”
 
