@@ -8,13 +8,15 @@ lat: "..."
 long: "..."
 ---
 
+:::center
 _Originally published in mathNEWS 156.1, September 13, 2024._
 
-~
+❦
 
 _Who made the world?_  
 _Who made the swan, and the black bear?_  
 _Who made the grasshopper?_
+:::
 
 The parking lot was at, generously, one percent capacity. We had to drive along the entire length of a fence to get in, erected about a decade ago to keep out protesters. We passed the iconic Marineland sign; looking closer, we noticed that the picture of a whale that used to be on the sign had been hastily removed, leaving blood-red scars across the paint, which felt like a metaphor for something.
 

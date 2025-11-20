@@ -20,6 +20,7 @@
     "@vercel/analytics": "^1.5.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "ffmpeg": "^0.0.4",
     "gray-matter": "^4.0.3",
     "hastscript": "^9.0.1",
     "intersection": "^0.0.1",
