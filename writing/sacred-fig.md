@@ -8,8 +8,12 @@ lat: "..."
 long: "..."
 ---
 
+:::center
 _“If they arrest us, well, there’s nothing you can do.”_  
 _Mohammad Rasoulof, Vanity Fair, 2024_
+:::
+
+![seed of the sacred fig](/images/blog/sacred-fig/header.png)
 
 I saw _The Seed Of The Sacred Fig_ (2024) on February 2nd, 2025, and I’m still thinking about it. If you’re looking for a review, that’s as glowing as it gets from me.
 
@@ -17,9 +21,10 @@ The movie is the latest by Iranian filmmaker, anti-regime activist, and current 
 
 Some people, when faced with this kind of risk to their lives and livelihood, would back off. Rasoulof, reflecting on his persecution while serving his latest stint in prison, seemed to take it as a challenge.
 
+:::center
 _“That whole metaphor-and-allegory stuff is the aesthetics of totalitarianism. It has been a subtle form of suppression, of dissuading artists from expressing themselves, their true intentions. This aesthetics has led to the political castration of cinema. I am done with that path. I want to create realistic images, to express myself in my art.”_  
 _Mohammad Rasoulof, The New York Times, 2024_
-
+:::
 _The Seed Of The Sacred Fig_ is set during the 2022 Woman, Life, Freedom protests in Iran, a wave of civil unrest sparked by the killing of Mahsa Amini, who was severely beaten by Iran’s morality police for “improperly” wearing her hijab. The protests quickly broadened into an expression of general anger against the Iranian theocracy, which responded in turn with swift brutality--over five hundred protesters are said to have been killed by police.
 
 The movie isn’t a documentary, though. It’s a work of historical fiction (albeit about history which was less than a year old when they were filming). The heart of the story is the growing internal tension within a single family in Tehran. The father is a prominent and devout member of the Iranian legal system, about to be accepted onto the Revolutionary Court. The two daughters are increasingly politically aware and growing more radical, following the protests closely on social media. The mother is caught in the middle, trying in vain to hold her family together.
@@ -48,8 +53,9 @@ Of course, the movie is flawed. The last act in particular feels like it drags, 
 
 But somehow, all of that feels rather beside the point.
 
-\~
-
+:::center
+❦
+:::
 There’s one more trick the movie pulls that really stuck with me.
 
 The movie is set during mass anti-government protests, and the violent government crackdown plays a key role in the ratcheting up of the tension. Obviously, these protests need to be seen on screen. Also obvious: the filmmakers can’t film it the traditional way, either by going into the real crowds and filming with their professional camera equipment or by recreating it using extras.
@@ -74,8 +80,9 @@ How can a single filmmaking choice be simultaneously way more and way less intim
 
 I’m still thinking about it today. What a fantastic film.
 
-\~
-
+:::center
+❦
+:::
 Further reading:
 
 - [https://www.vanityfair.com/hollywood/story/how-to-make-a-movie-in-iran-and-not-get-caught-inside-the-seed-of-the-sacred-fig](https://www.vanityfair.com/hollywood/story/how-to-make-a-movie-in-iran-and-not-get-caught-inside-the-seed-of-the-sacred-fig)

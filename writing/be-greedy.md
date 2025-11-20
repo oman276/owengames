@@ -8,6 +8,8 @@ lat: "..."
 long: "..."
 ---
 
+![The Montreal Botanical Garden](/images/blog/be-greedy/header.png)
+
 This article is specifically for all the first years out there.
 
 Hi! How are you all feeling? First midterm season is always a huge gut punch. I remember feeling like I was going to fail out of all my courses. If it helps, I can tell you from experience as a fourth year that this is probably the hardest it's ever going to be. Sure, the classes are going to get more complex and advanced, but you'll know how to study better, what not to do, and you'll just generally know what you're in for more. You'll get better at this.
@@ -20,7 +22,7 @@ At least, it's worked out well for me.
 
 You might get to a point in your undergraduate career when you start being drawn to something outside the realm of your major. That's a really precious feeling. Don't run away from it.
 
-It can be a scary feeling, because it can draw you away from a path you had worked very hard to place yourself on. I know that for many of you, getting into your university was a really big deal--the culmination of countless long days and nights of studying and preparation.
+It can be a scary feeling, because it can draw you away from a path you had worked very hard to place yourself on. I know that for many of you, getting into your university was a really big deal—the culmination of countless long days and nights of studying and preparation.
 
 I'm also not recommending throwing away your entire life plan in the face of, say, a difficult midterm. Knowing how to handle take tough hits like that is another important skill you'll hone over the next few years here.
 
@@ -28,4 +30,4 @@ But, and I'm truly sorry for the cliche here, now is the time to discover yours
 
 I've tried to live my life by following the most interesting opportunity available to me at any given time, and I think I'm a lot happier for it.
 
-If you can let an old man (22) give some sage advice, you should give yourself permission to chase the things that interest you. Don't be afraid of that voice in your head telling you what you'd really rather be doing. Some people spend their whole lives waiting to hear it — don't let it fade away, unanswered.
+If you can let an old man (22) give some sage advice, you should give yourself permission to chase the things that interest you. Don't be afraid of that voice in your head telling you what you'd really rather be doing. Some people spend their whole lives waiting to hear it—don't let it fade away, unanswered.
