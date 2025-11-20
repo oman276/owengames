@@ -56,7 +56,7 @@ function myRemarkPlugin() {
           }).properties;
         } else {
           // Default behavior for other directives
-          const hast: any = h(directive.name, directive.attributes || {});
+          const hast = h(directive.name, directive.attributes || {});
           data.hName = hast.tagName;
           data.hProperties = hast.properties;
         }
