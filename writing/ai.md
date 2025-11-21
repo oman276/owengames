@@ -8,6 +8,8 @@ lat: "..."
 long: "..."
 ---
 
+![self driving](/images/blog/ai/self-driving.jpg)
+
 **The Self-Driving Car Principle**
 
 In 2013, Tesla CEO and notable buffoon Elon Musk publicly predicted that the cars his company produced would be “90% autonomous”—ie, self-driving—by 2016\. In 2016, Musk publicly predicted that “you'll be able to summon your car from across the country” by 2018\. In 2018, the deadline shifted again to “next year”. In 2019, he was saying “this year.” In 2020, he was also saying “this year”. In 2021, he was _still_ saying “this year”.
@@ -44,7 +46,11 @@ Could it happen? Maybe. But maybe not. The Self-Driving Car Principle proves to 
 
 Oh, by the way, Elon is still out there in 2025 saying that full self-driving capability is “coming this year”. We’ll see how that one ages, I guess.
 
-\~
+:::center
+❦
+:::
+
+![gulf of usefulness](/images/blog/ai/zuck.png)
 
 **Gulf Of Usefulness**
 
@@ -62,7 +68,11 @@ But for the life of me, I can’t possibly picture how I would be using AI right
 
 (Perhaps I just lack imagination, but I also think there’s evidence for this in how few successful AI-based products there are outside of the startups/products which promise to make you better at programming somehow.)
 
-\~
+:::center
+❦
+:::
+
+![intentional](/images/blog/ai/gatsby.png)
 
 **Being Intentional**
 
@@ -108,7 +118,11 @@ Now may be the last, best chance to, as a society, set the rules for what AI sho
 
 I don’t know what this future should look like, but I _do_ know what it _absolutely cannot_ look like.
 
-\~
+:::center
+❦
+:::
+
+![intentional](/images/blog/ai/gpt5.png)
 
 **Why’d You Kill My Friend, Sam?**
 

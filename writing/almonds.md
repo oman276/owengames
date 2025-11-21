@@ -8,6 +8,8 @@ lat: "..."
 long: "..."
 ---
 
+![header](/images/blog/almonds/header.jpg)
+
 The thousand injuries of Fortunato I had borne as I best could, but when he ventured upon insult I vowed revenge. Indeed, at length, and with nutty flavour, I would be avenged. I would not only punish but punish with sweet delight, a delight drawn close to oblivion. I must not let this wrong become unredressed, as if it were a delicious almond placed in plain view, never to be claimed, crushed, devoured.
 
 Understand that by neither word nor deed had I given Fortunato cause to doubt my good taste in appetizers or snacks. He had a weak point, this Fortunato. He prided himself on his connoisseurship in almonds. Few Italians have the true virtuoso spirit, but in the matter of almonds, Fortunato was sincere.
