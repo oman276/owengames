@@ -8,6 +8,8 @@ lat: "..."
 long: "..."
 ---
 
+![header](/images/blog/robert-johnson/header.jpg)
+
 [_ROBERT JOHNSON DEAD AT 27_](https://rockhall.com/inductees/robert-johnson/)
 
 _Robert Johnson, whose blues could be heard at street corners all across the Delta, was found dead in Itta Bena, Mississippi this morning, according to police. Johnson’s mastery of the guitar was clear to most everyone who had the fortune of hearing him play. He had only last year released his first singles, and was preparing for a major appearance at Carnegie Hall._
@@ -17,7 +19,9 @@ _His cause of death remains unknown._
 _Jackson Chronicle_  
 _August 16, 1938_
 
-\~
+:::center
+❦
+:::
 
 Today, Robert Johnson stood at the top of the world—or, more specifically, at the top floor of a juke joint in Itta Bena.
 
@@ -61,7 +65,9 @@ Lying on the floor, he looked up at the unbearably bright lights overhead. He co
 
 Using the last of his strength, he rolled over to steady himself on his hands and knees, just in time to begin vomiting on the ground. He could feel the energy being drained from his limbs as the ground in front of him filled with bile, then blood—
 
-\~
+:::center
+❦
+:::
 
 Robert Johnson snapped open his eyes. Feeling intense vertigo, he reached out and grabbed the first thing he could find to keep him stable on his feet.
 
@@ -95,27 +101,39 @@ But Robert was rattled, so he didn’t hear the angry man approaching from behin
 
 Robert would have replied _no, actually, I don’t think I know anything right now,_ but at that moment the man’s boot slammed into his gut and the words slipped from his mind as the air fled from his lungs. Robert writhed on the ground, his stomach taking kick after kick after kick, and then the man’s boot came for his head—
 
-\~
+:::center
+❦
+:::
 
 Robert was suddenly in a back alley, as a man slowly approached him with a switchblade. Robert stepped back, begging in a ragged voice, “Stop, stop, wait-” but the man rushed at him and sank the knife into his gut, tearing his best black suit. As Robert fell to the ground, he could feel the man rummage through his pockets. The last thing he saw as his vision faded was the man fleeing the scene with fistfuls of cash—
 
-\~
+:::center
+❦
+:::
 
 Robert jolted awake as a fist collided with his face. His vision suddenly doubled, but he could tell he was in a crowd of men, with his arms clasped so tightly he couldn’t move. The men were yelling something, screaming vicious poison. Robert was forced to his knees, as he felt blood dripping out of his nose and forehead. As the man in front of him, suddenly coming into focus, wound up for another punch, he realized that all the men around him were white, then another fist connected with his jaw—
 
-\~
+:::center
+❦
+:::
 
 Robert was rattling around in the backseat of an airplane, surrounded by other terrified musicians as a voice ringing in his ears repeated “Mayday\! Mayday\! We’re going down\! Uncontrolled descent\!” _I’ve never been on an airplane before,_ Robert thought—
 
-\~
+:::center
+❦
+:::
 
 Robert gasped, and water filled his lungs and stung his eyes. Face down, he tried to move his body but found it sluggish and insubordinate. He knew how to swim—didn’t he? —but his limbs wouldn’t move together, and he only succeeded in pushing himself further underwater. It was only as his vision blurred and the panic gave way to a light-headed bliss that he saw the bottles in both hands—
 
-\~
+:::center
+❦
+:::
 
 Robert found his hands clutching satin sheets so tightly it felt like he would rip them in half if he moved—but again, he couldn’t move. A sudden wave of exhaustion hit, and it took all his willpower to stay awake. He wasn’t drowning, but he couldn’t breathe. As he coughed, vomit leaked from the side of his mouth. He tried to get up, to clear his mouth, to scream, but then another wave of exhaustion swept over him—
 
-\~
+:::center
+❦
+:::
 
 “Mister Johnson?”
 

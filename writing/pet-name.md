@@ -8,6 +8,8 @@ lat: "..."
 long: "..."
 ---
 
+![header](/images/blog/pet-name/header.jpg)
+
 Alright, I’m busy this week so I gotta make this quick.
 
 _Pet Name_ is a song by the band They Might Be Giants. For a group famous for oblique lyrics and songs with unclear meanings (I dare you to try and figure out what _Nothing’s Gonna Change My Clothes_ is about), _Pet Name_ is actually remarkably straightforward. There’s only _two_ distinct ways to interpret it.

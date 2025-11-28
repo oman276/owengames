@@ -8,6 +8,8 @@ lat: "..."
 long: "..."
 ---
 
+![header](/images/blog/feature-request/header.jpg)
+
 True story: I was just in class and was trying to copy and paste an image into my notes on a new line, using the handy-dandy CTRL-V shortcut. But since life doesn't always work out how you planned it, I pressed CTRL-C instead. (A common mistake, as C is directly next to V on many keyboards.)
 
 _No problem_, I thought to myself, _I will simply correct my mistake and press CRTL-V properly this time._ But I was a fool. I didn't realize I had made the classic beginner's folly.
