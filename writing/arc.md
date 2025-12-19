@@ -14,7 +14,7 @@ Arc is (was?) a web browser created by a startup called The Browser Company, wit
 
 Arc was a radical redesign, meant to be an operating system for the internet. Tabs either acted like permanent app launchers, or if they weren’t important, they were cleared out every 24 hours. Things you’d otherwise need a new window for—split screen, multi-account management—could all be done in seamless, cleaner ways. You could even open a link in a mini-window over your previous tab you could click out of to close (like the new WaterlooWorks if it worked correctly).
 
-I heard about it from an article on The Verge from November 2022\[1\], which hit me like a revelation. I had, truth be told, never thought much about the browser I spent almost all of my computer time on. I had done the thing I always try to avoid and internalized the problems with the systems I interact with. _If it doesn’t work, it’s probably your fault. Just figure it out._ Arc was a promise that someone out there was seriously thinking about pushing the design of this critical piece of technology forwards.
+I heard about it from an article on The Verge from November 2022[^1], which hit me like a revelation. I had, truth be told, never thought much about the browser I spent almost all of my computer time on. I had done the thing I always try to avoid and internalized the problems with the systems I interact with. _If it doesn’t work, it’s probably your fault. Just figure it out._ Arc was a promise that someone out there was seriously thinking about pushing the design of this critical piece of technology forwards.
 
 The only problem was that the browser was exclusive to MacOS, with a Windows version promised nebulously at some point in the future. Like any good love story, this plotline contains plenty of yearning.
 
@@ -36,9 +36,9 @@ It was in these times of uncertainty that I began, well, reading too much into t
 
 _Maybe the reason they haven’t updated Arc in so long is because they’re waiting to drop a bunch of new features at once. Maybe it’s such a big change that they just need more time to prepare for it. Maybe my investment of time and energy into this browser will pay off._
 
-But, like most times I read too much into things, the simplest explanation was the correct one. In a YouTube video released in October,\[2\] they came clean. They stopped updating Arc because they had, simply, lost interest. They’re a tech startup, which means they caught the AI bug. Their next product would be an AI-centric browser.
+But, like most times I read too much into things, the simplest explanation was the correct one. In a YouTube video released in October,[^2] they came clean. They stopped updating Arc because they had, simply, lost interest. They’re a tech startup, which means they caught the AI bug. Their next product would be an AI-centric browser.
 
-Their initial claim was that Arc was just… complete, and they didn’t want to add more features to it which might muddy its purpose. Given the state of Arc for Windows, I _seriously_ doubted this explanation. In a Substack post from May 2025,\[3\] they got a little more honest.
+Their initial claim was that Arc was just… complete, and they didn’t want to add more features to it which might muddy its purpose. Given the state of Arc for Windows, I _seriously_ doubted this explanation. In a Substack post from May 2025,[^3] they got a little more honest.
 
 Basically, Arc was too niche to ever break into the mainstream market the way they had hoped. They had made something that was so out there, so opinionated, that it just bounced off most people. The users who stuck around _loved it_, but it was never going to scale to a billion users like they apparently wanted.
 
@@ -64,6 +64,8 @@ I think I just need to accept that Arc was a moment in time, and that moment has
 
 So long, Arc. It really was a pleasure.
 
-1. [https://www.theverge.com/23462235/arc-web-browser-review](https://www.theverge.com/23462235/arc-web-browser-review)
-2. [https://youtu.be/E9yZ0JusME4?si=\_9fuDGIh6Mty1SeX](https://youtu.be/E9yZ0JusME4?si=_9fuDGIh6Mty1SeX)
-3. [https://substack.com/home/post/p-164126379](https://substack.com/home/post/p-164126379)
+[^1]: [https://www.theverge.com/23462235/arc-web-browser-review](https://www.theverge.com/23462235/arc-web-browser-review)
+
+[^2]: [https://youtu.be/E9yZ0JusME4?si=\_9fuDGIh6Mty1SeX](https://youtu.be/E9yZ0JusME4?si=_9fuDGIh6Mty1SeX)
+
+[^3]: [https://substack.com/home/post/p-164126379](https://substack.com/home/post/p-164126379)
