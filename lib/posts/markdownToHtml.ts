@@ -8,6 +8,7 @@ import { h } from "hastscript";
 import type { Root } from "mdast";
 import rehypeStringify from "rehype-stringify";
 import remarkDirective from "remark-directive";
+import remarkGfm from "remark-gfm";
 import remarkParse from "remark-parse";
 import remarkRehype from "remark-rehype";
 import { unified } from "unified";
@@ -17,6 +18,7 @@ import { visit } from "unist-util-visit";
 export default async function markdownToHtml(markdown: string) {
   const result = await unified()
     .use(remarkParse)
+    .use(remarkGfm)
     .use(remarkDirective)
     .use(myRemarkPlugin)
     .use(remarkRehype)
