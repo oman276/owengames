@@ -8,6 +8,8 @@ lat: "..."
 long: "..."
 ---
 
+![header](/images/blog/arc/header.jpg)
+
 I still remember the first time I ever heard of Arc Browser. It really was love at first sight.
 
 Arc is (was?) a web browser created by a startup called The Browser Company, with a really novel and compelling hypothesis about what a browser should be in the 2020s. The basic gist of it was that the basic web browser was designed twenty years ago as merely a way to retrieve and display HTML from servers. But as the web became more and more complicated and dynamic, browsers never really evolved to keep up.
