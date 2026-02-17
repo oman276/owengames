@@ -59,6 +59,19 @@ export const professionalGames: GamesListItem[] = [
 
 export const personalGames: GamesListItem[] = [
   {
+    title: "Rectifier",
+    date: "February 1, 2026",
+    collaborators: "Nicole, Ava, Saaz",
+    role: "Design, Programming, Audio",
+    links: [
+      { name: "Play Online", url: "https://imavafe.itch.io/rectifier-1984" },
+      { name: "View Code", url: "https://github.com/oman276/UW-Winter-2026-Game-Jam" },
+    ],
+    desc: "Work the day job of a censor in the Ministry of Truth, redacting the text and imagery of dissenting material. Made in Godot.",
+    imageUrl: "rectifier.png",
+  },
+
+  {
     title: "Horse Hearse",
     date: "June 8, 2025",
     collaborators: "Misha, Saaz, Isabelle, David, Colin",
