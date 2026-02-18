@@ -8,6 +8,8 @@ import { getAllProjects, getProjectBySlug } from "@/lib/projects/api";
 import markdownToHtml from "@/lib/posts/markdownToHtml";
 import { getOGData } from "@/lib/utils";
 import { Metadata } from "next/types";
+import ProjectHeader from "@/components/projects/ProjectHeader";
+import ProjectBody from "@/components/projects/ProjectBody";
 
 type Params = {
   params: {
@@ -31,16 +33,12 @@ export default async function ProjectPage({ params }: Params) {
   const content = await markdownToHtml(project.content);
 
   return (
-    <div className="flex flex-col items-center max-w-2xl mx-auto mgap-4 min-h-screen">
-      <article className="">
+    <div className="flex flex-col items-center mx-auto mgap-4 min-h-screen">
+      <article className="w-[75vw]">
         <Navigation />
-        <PostHeader
-          title={project.title}
-          coverImage={project.coverImage}
-          date={project.date}
-        />
-        <PostBody content={content} />
-        <PostFooter />
+        <ProjectHeader {...project} />
+        <ProjectBody content={content} />
+        {/* <PostFooter /> */}
         <Footer />
       </article>
     </div>

@@ -9,7 +9,7 @@ const fontPosts = EB_Garamond({
   variable: "--font-posts",
 });
 
-export default function PostBody({ content }: { content: string }) {
+export default function ProjectBody({ content }: { content: string }) {
   return (
     <div className={cn("w-full max-w-4xl mx-auto px-4", fontPosts.className)}>
       <div

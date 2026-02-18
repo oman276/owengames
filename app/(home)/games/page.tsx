@@ -24,6 +24,9 @@ import { getAllPosts } from "@/lib/posts/api";
 import { cn } from "@/lib/utils";
 import { getAllGames } from "@/lib/projects/api";
 
+// TODO 
+// this isn't really how I want this to look
+
 export default function Games({
   searchParams,
 }: {
