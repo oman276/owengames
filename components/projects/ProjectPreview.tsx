@@ -4,6 +4,7 @@ import { Project } from "@/lib/projects/types";
 import Link from "next/link";
 
 export default function ProjectPreview({ project }: { project: Project }) {
+  // TODO we need more customization here for long term projects
   const date = new Date(project.date).toLocaleDateString("en-CA", {
     month: "short",
     day: "2-digit",
