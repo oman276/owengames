@@ -1,8 +1,15 @@
 import Image from "next/image";
-import { Project } from "@/lib/projects/types";
+import { GameProject, Project } from "@/lib/projects/types";
 import { PATH_GAMES_IMAGES } from "@/lib/constants";
+import { Button } from "../ui/button";
+import Link from "next/dist/client/link";
+import {
+  GitHubLogoIcon,
+  MagnifyingGlassIcon,
+  PlayIcon
+} from "@radix-ui/react-icons";
 
-export default function ProjectHeader(project : Project) {
+export default function ProjectHeader(project : GameProject) {
   return (
     <div className="flex flex-col md:flex-row">
       {/* Image side */}
@@ -21,33 +28,27 @@ export default function ProjectHeader(project : Project) {
 
       {/* Text side */}
       <div className="flex flex-col justify-center gap-4 p-8 w-full md:w-1/2">
-        {/* <p className="text-sm uppercase tracking-widest text-muted-foreground">
-          {project.type}
-        </p> */}
         <h1 className="text-5xl font-header uppercase font-bold">{project.title}</h1>
         <p className="text-muted-foreground">{project.preview}</p>
 
-        {/* <div className="flex flex-wrap gap-2">
-          {project.tags.map((tag) => (
-            <span
-              key={tag}
-              className="text-xs bg-secondary text-secondary-foreground px-2 py-1 rounded-full"
-            >
-              {tag}
-            </span>
-          ))}
-        </div> */}
-
         <p className="text-sm text-muted-foreground">{project.date}</p>
-
-        {project.actionURL && (
-          <a
-            href={project.actionURL}
-            className="mt-2 self-start px-4 py-2 bg-primary text-primary-foreground rounded-md text-sm font-medium"
-          >
-            {project.actionText ?? "View Project"}
-          </a>
-        )}
+        <div className="flex flex-col md:flex-row">
+            {project.actionURL && (
+            <Button variant="outline" asChild>
+                <Link href={project.actionURL}><MagnifyingGlassIcon className="w-4 h-4 mr-2" />{project.actionText}</Link>
+            </Button>
+            )}
+            {project.playURL && (
+            <Button variant="outline" asChild>
+                <Link href={project.playURL}><PlayIcon className="w-4 h-4 mr-2" />Play Game</Link>
+            </Button>
+            )}
+            {project.sourceURL && (
+            <Button variant="outline" asChild>
+                <Link href={project.sourceURL}><GitHubLogoIcon className="w-4 h-4 mr-2" />View Code</Link>
+            </Button>
+            )}
+        </div>
       </div>
     </div>
   );

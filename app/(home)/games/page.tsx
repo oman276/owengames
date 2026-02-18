@@ -1,3 +1,4 @@
+import Image from "next/image";
 import GamesList from "@/components/layout/GamesList";
 import { personalGames, professionalGames, otherGames } from "./content";
 import { SimpleGamesList } from "@/components/layout/SimpleGamesList";
@@ -17,12 +18,10 @@ export default function Games() {
 }
 */
 
-import FilterButtons from "@/components/writing/FilterButtons";
-import PostPreview from "@/components/writing/PostPreview";
 import ProjectPreview from "@/components/projects/ProjectPreview";
-import { getAllPosts } from "@/lib/posts/api";
 import { cn } from "@/lib/utils";
 import { getAllGames } from "@/lib/projects/api";
+import { PATH_GAMES_IMAGES } from "@/lib/constants";
 
 // TODO 
 // this isn't really how I want this to look
@@ -45,7 +44,7 @@ export default function Games({
   let currentYear = new Date().getFullYear() + 1;
 
   return (
-    <div className="flex flex-col items-center max-w-2xl mx-auto gap-4 min-h-screen text-lg">
+    <div className="flex flex-col w-[75vw] items-center max-w-2xl mx-auto gap-8 min-h-screen text-lg">
       <h1 className="text-6xl font-header tracking-wide mb-8 text-center">
         GAMES
       </h1>
@@ -54,28 +53,48 @@ export default function Games({
         const showYear = gameYear !== currentYear;
         currentYear = gameYear;
         const printSlug = post.slug.replace(/-/g, " ").toUpperCase();
+        
         return (
-          <div
-            key={post.slug}
-            className={cn(
-              "flex w-full items-start gap-4",
-              showYear && "border-t pt-4"
+          <div className={cn("flex flex-col md:flex-row gap-8 items-center w-full", !showYear && "border-t pt-4")} key={post.slug}>
+            {post.coverImage && (
+              <div className="w-full md:w-1/2 flex items-center">
+                <Image
+                  src={`${PATH_GAMES_IMAGES}/${post.coverImage}`}
+                  alt={post.title}
+                  width={0}
+                  height={0}
+                  sizes="20vw"
+                  className="w-full h-auto"
+                />
+              </div>
             )}
-          >
-            {/* Year column */}
-            <div className="min-w-[60px] text-right">
-              {showYear && (
-                <h2 className="font-semibold text-muted-foreground">
-                  {printSlug}
-                </h2>
-              )}
-            </div>
 
-            {/* Post preview column */}
-            <div className={cn("flex-1", !showYear && "border-t pt-4")}>
+            <div className="flex-1">
               <ProjectPreview project={post} />
             </div>
           </div>
+
+          // <div
+          //   key={post.slug}
+          //   className={cn(
+          //     "flex w-full items-start gap-4",
+          //     showYear && "border-t pt-4"
+          //   )}
+          // >
+          //   {/* Year column */}
+          //   <div className="min-w-[60px] text-right">
+          //     {showYear && (
+          //       <h2 className="font-semibold text-muted-foreground">
+          //         {printSlug}
+          //       </h2>
+          //     )}
+          //   </div>
+
+          //   {/* Post preview column */}
+          //   <div className={cn("flex-1", !showYear && "border-t pt-4")}>
+          //     <ProjectPreview project={post} />
+          //   </div>
+          // </div>
         );
       })}
     </div>

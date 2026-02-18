@@ -10,15 +10,17 @@ export default function ProjectPreview({ project }: { project: Project }) {
   });
 
   return (
-    <Link href={`${PATH_PROJECTS}/${project.slug}`} passHref>
-      <div className="flex justify-between group hover:underline hover:cursor-pointer py-4 -my-4">
-        <h1 className="tracking-tight font-semibold text-balance w-full">
-          {project.title}
-        </h1>
-        <p className="w-[9ch] font-semibold dark:font-bold text-muted-foreground text-right group-hover:underline decoration-muted-foreground">
-          {date}
-        </p>
-      </div>
-    </Link>
+    <div className="flex flex-col gap-4">
+      <Link href={`${PATH_PROJECTS}/${project.slug}`} passHref>
+        <div className="flex justify-between group hover:underline hover:cursor-pointer py-4 -my-4">
+          <h1 className="text-2xl font-semibold group-hover:underline decoration-muted-foreground">
+            {project.title}
+          </h1>
+        </div>
+      </Link>
+
+      <p className="text-muted-foreground">{project.preview}</p>
+      <p className="text-sm text-muted-foreground">{project.date}</p>
+    </div>
   );
 }

@@ -1,8 +1,6 @@
 import Footer from "@/components/layout/Footer";
 import Navigation from "@/components/layout/Navigation";
-import PostBody from "@/components/writing/PostBody";
 import PostFooter from "@/components/writing/PostFooter";
-import PostHeader from "@/components/writing/PostHeader";
 import { AUTHOR, BASE_URL, PATH_PROJECTS } from "@/lib/constants";
 import { getAllProjects, getProjectBySlug } from "@/lib/projects/api";
 import markdownToHtml from "@/lib/posts/markdownToHtml";
@@ -10,6 +8,7 @@ import { getOGData } from "@/lib/utils";
 import { Metadata } from "next/types";
 import ProjectHeader from "@/components/projects/ProjectHeader";
 import ProjectBody from "@/components/projects/ProjectBody";
+import ProjectGallery from "@/components/projects/ProjectGallery";
 
 type Params = {
   params: {
@@ -37,8 +36,8 @@ export default async function ProjectPage({ params }: Params) {
       <article className="w-[75vw]">
         <Navigation />
         <ProjectHeader {...project} />
+        <ProjectGallery project={project} />
         <ProjectBody content={content} />
-        {/* <PostFooter /> */}
         <Footer />
       </article>
     </div>
