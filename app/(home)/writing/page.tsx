@@ -3,20 +3,6 @@ import PostPreview from "@/components/writing/PostPreview";
 import { getAllPosts } from "@/lib/posts/api";
 import { cn } from "@/lib/utils";
 
-{
-  /*
-export const metadata: Metadata = {
-    title: "About",
-    description: META_DESCRIPTION_HOME,
-    openGraph: getOGData({
-      title: "About",
-      description: "About",
-      url: `\\about`,
-    }),
-  };
-
-  */
-}
 export default function Writing({
   searchParams,
 }: {
