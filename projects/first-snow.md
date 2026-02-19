@@ -2,7 +2,7 @@
 title: "First Snow"
 preview: "A short narrative game where you explore a dock, meet a young woman, and see how you can help each other."
 type: "game"
-date: "October 6th, 2024"
+date: "October 6, 2024"
 tags: ["personal"]
 coverImage: "firstsnow.png"
 playURL: "https://oman276.itch.io/first-snow"
