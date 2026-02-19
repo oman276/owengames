@@ -2,7 +2,7 @@
 title: "Rectifier"
 preview: "Censor dissent and make The Ministry Of Truth proud. Made in Godot for the UW Winter 2026 Game Jam."
 type: "game"
-date: "February 1 2026"
+date: "February 1, 2026"
 tags: ["personal", "best"]
 coverImage: "rectifier.png"
 playURL: "https://imavafe.itch.io/rectifier-1984"

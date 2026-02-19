@@ -48,14 +48,14 @@ export default function Games({
       <h1 className="text-6xl font-header tracking-wide mb-8 text-center">
         GAMES
       </h1>
-      {games.map((post) => {
+      {games.map((post, index) => {
         const gameYear = new Date(post.date).getFullYear();
         const showYear = gameYear !== currentYear;
         currentYear = gameYear;
         const printSlug = post.slug.replace(/-/g, " ").toUpperCase();
         
         return (
-          <div className={cn("flex flex-col md:flex-row gap-8 items-center w-full", !showYear && "border-t pt-4")} key={post.slug}>
+          <div className="flex flex-col md:flex-row gap-8 items-center w-full" key={post.slug}>
             {post.coverImage && (
               <div className="w-full md:w-1/2 flex items-center">
                 <Image
