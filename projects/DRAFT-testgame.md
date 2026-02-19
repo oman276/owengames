@@ -3,7 +3,7 @@ title: "Test example game"
 preview: "Some kind of basic text which describes how the game works. Maybe a second sentence, even, possibly."
 type: "game"
 date: "February 17 2026"
-tags: ["professional"]
+tags: ["personal"]
 coverImage: "burntout.png"
 playURL: "https://imavafe.itch.io/rectifier-1984"
 sourceURL: "https://github.com/oman276/UW-Winter-2026-Game-Jam"
