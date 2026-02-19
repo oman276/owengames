@@ -2,7 +2,7 @@
 title: "Burnt Out"
 preview: "An anti-cozy game about the feeling of being overwhelmed by life. Made in Godot."
 type: "game"
-date: "June 2 2024"
+date: "June 2, 2024"
 tags: ["personal"]
 coverImage: "burntout.png"
 playURL: "https://oman276.itch.io/burnt-out"
