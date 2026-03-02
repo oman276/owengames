@@ -26,7 +26,7 @@ export default function PostHeader({
         </h1>
       </div>
       {subtitle && (
-        <p className="text-lg font-subtitle text-muted-foreground text-center">
+        <p className="text-lg font-subtitle font-bold text-muted-foreground text-center">
           {subtitle}
         </p>
       )}
