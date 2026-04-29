@@ -1,5 +1,3 @@
-import Footer from "@/components/layout/Footer";
-import Navigation from "@/components/layout/Navigation";
 import PostFooter from "@/components/writing/PostFooter";
 import { AUTHOR, BASE_URL, PATH_PROJECTS } from "@/lib/constants";
 import { getAllProjects, getProjectBySlug } from "@/lib/projects/api";
@@ -32,13 +30,11 @@ export default async function ProjectPage({ params }: Params) {
   const content = await markdownToHtml(project.content);
 
   return (
-    <div className="flex flex-col items-center mx-auto mgap-4 min-h-screen">
-      <article className="w-[75vw]">
-        <Navigation />
+    <div className="flex flex-col items-center w-full min-h-screen">
+      <article className="w-full">
         <ProjectHeader {...project} />
         <ProjectGallery project={project} />
         <ProjectBody content={content} />
-        <Footer />
       </article>
     </div>
   );

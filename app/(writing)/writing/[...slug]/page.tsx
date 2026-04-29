@@ -1,5 +1,3 @@
-import Footer from "@/components/layout/Footer";
-import Navigation from "@/components/layout/Navigation";
 import PostBody from "@/components/writing/PostBody";
 import PostFooter from "@/components/writing/PostFooter";
 import PostHeader from "@/components/writing/PostHeader";
@@ -34,9 +32,8 @@ export default async function Post({ params }: Params) {
   const nextPost = currentIndex > 0 ? posts[currentIndex - 1] : undefined;
 
   return (
-    <div className="flex flex-col items-center max-w-2xl mx-auto mgap-4 min-h-screen">
-      <article className="">
-        <Navigation />
+    <div className="flex flex-col items-center max-w-2xl mx-auto gap-4 min-h-screen">
+      <article className="w-full">
         <PostHeader
           title={post.title}
           subtitle={post.subtitle}
@@ -45,7 +42,6 @@ export default async function Post({ params }: Params) {
         />
         <PostBody content={content} />
         <PostFooter nextPost={nextPost} />
-        <Footer />
       </article>
     </div>
   );
