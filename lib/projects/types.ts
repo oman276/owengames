@@ -11,8 +11,8 @@ export type Project = {
     type: string;
     /* Publication date, the end date if nothing else is specified */
     date: string;
-    /** End Date */
-    endDate?: string;
+    /** Date to display for the project (initial date is for sorting) */
+    displayedDate?: string;
     /** Full markdown-formatted content of the post */
     content: string;
     /** File location of an image for display on the post's page */
