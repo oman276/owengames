@@ -21,7 +21,7 @@ export default function ProjectPreview({ project }: { project: Project }) {
       </Link>
 
       <p className="text-muted-foreground">{project.preview}</p>
-      <p className="text-sm text-muted-foreground">{project.date}</p>
+      <p className="text-sm text-muted-foreground">{project.displayedDate ?? project.date}</p>
     </div>
   );
 }
