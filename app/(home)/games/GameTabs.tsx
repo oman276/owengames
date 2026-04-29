@@ -27,7 +27,6 @@ export default function GameTabs({ games }: { games: Project[] }) {
       <h1 className="text-6xl font-header tracking-wide mb-8 text-center">
         GAMES
       </h1>
-
       <div className="flex gap-4 mb-4">
         {TABS.map((tab) => (
           <Button
@@ -39,7 +38,6 @@ export default function GameTabs({ games }: { games: Project[] }) {
           </Button>
         ))}
       </div>
-
       <div className="flex flex-col gap-8 w-full">
         {filteredGames.map((post) => (
           <div
