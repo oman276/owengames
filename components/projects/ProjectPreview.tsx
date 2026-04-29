@@ -4,7 +4,6 @@ import { Project } from "@/lib/projects/types";
 import Link from "next/link";
 
 export default function ProjectPreview({ project }: { project: Project }) {
-  // TODO we need more customization here for long term projects
   const date = new Date(project.date).toLocaleDateString("en-CA", {
     month: "short",
     day: "2-digit",
@@ -20,8 +19,8 @@ export default function ProjectPreview({ project }: { project: Project }) {
         </div>
       </Link>
 
-      <p className="text-muted-foreground">{project.preview}</p>
-      <p className="text-sm text-muted-foreground">{project.displayedDate ?? project.date}</p>
+      <p className="text-muted-foreground text-left">{project.preview}</p>
+      <p className="text-sm text-muted-foreground text-left">{project.displayedDate ?? project.date}</p>
     </div>
   );
 }

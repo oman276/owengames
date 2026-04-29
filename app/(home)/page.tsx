@@ -5,9 +5,13 @@ import {
   PATH_WRITING,
 } from "@/lib/constants";
 import Image from "next/image";
+import InlineLink from "@/components/InlineLink";
+import GameTabs from "./games/GameTabs";
+import { getAllGames } from "@/lib/projects/api";
 
 
 export default async function Home() {
+  const allGames = getAllGames();
   return (
     <div className="flex flex-col items-center gap-4 text-lg text-center">
       
@@ -28,31 +32,18 @@ export default async function Home() {
         </div>
       </div>
       
-      <p className="font-sans">I&apos;m Owen Gallagher. I spend most of my time these days being a student at the University of Waterloo and a game developer. The rest of my time is is spent writing and taking pretty pictures.</p>
-      <p className="font-sans">I&apos;ve made 16 personal games (and counting) mostly using Godot and Unity/C#. I&apos;ve also worked a year&apos;s worth of gameplay programmer internships, including at Haven Studios (PlayStation Studios) on Fairgame$ and Digital Extremes on Warframe in C++ and/or Unreal Engine 5.</p>
-      <p className="font-sans">Here&apos;s some of the work that I&apos;m proudest of right now:</p>
+      <div className="flex flex-col gap-4 text-lg text-left">
+        <p>Hi! I&apos;m Owen Gallagher, a gameplay programmer with over a year of AAA experience in Unreal Engine and C++, and <InlineLink href="https://oman276.itch.io/">indie experience</InlineLink> using Godot and Unity.</p>
+        <p>I've worked at:</p>
+        <ul className="list-disc list-inside">
+          <li><InlineLink href="https://www.epicgames.com/site/home">Epic Games</InlineLink> (incoming) on <InlineLink href="https://www.unrealengine.com/">Unreal Engine 5</InlineLink></li>
+          <li><InlineLink href="https://havenstudios.com/en">Haven Studios</InlineLink> (PlayStation Studios) on <InlineLink href="https://havenstudios.com/en/blog/introducing-fairgames-a-competitive-heist-experience-coming-to-ps5-and-pc">Fairgames</InlineLink></li>
+          <li><InlineLink href="https://www.digitalextremes.com/">Digital Extremes</InlineLink> on <InlineLink href="https://www.warframe.com/en">Warframe</InlineLink></li>
+        </ul>
+      </div>
 
-      <Button variant="outline" asChild>
-        <Link href="https://oman276.itch.io/horse-hearse">Game: Horse Hearse</Link>
-      </Button>
-      <Button variant="outline" asChild>
-        <Link href= {PATH_WRITING + "/arc"}>Writing: Getting Dumped by my Web Browser</Link>
-      </Button>
-      <Button variant="outline" asChild>
-        <Link href="https://eternalon03.itch.io/wrath-of-daedalus">
-          Game: Wrath of Daedelus
-        </Link>
-      </Button>
-      <Button variant="outline" asChild>
-        <Link href={PATH_WRITING + "/the-new-god"}>
-          Writing: The New God
-        </Link>
-      </Button>
-      <Button variant="outline" asChild>
-        <Link href="https://oman276.itch.io/charonet">
-          Game: ./charonet
-        </Link>
-      </Button>    
+      <GameTabs games={allGames} activeTab={"best"} numToShow={5} />
+
     </div>
   );
 }
