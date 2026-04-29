@@ -1,7 +1,9 @@
+import Image from "next/image";
 import GamesList from "@/components/layout/GamesList";
 import { personalGames, professionalGames, otherGames } from "./content";
 import { SimpleGamesList } from "@/components/layout/SimpleGamesList";
 
+/*
 export default function Games() {
   return (
     <div className="flex flex-col items-center gap-4 text-lg min-h-screen text-center">
@@ -11,6 +13,90 @@ export default function Games() {
       <GamesList games={personalGames} />
       <h2 className="text-6xl font-header tracking-wide mt-8">OTHER GAMES</h2>
       <SimpleGamesList games={otherGames} />
+    </div>
+  );
+}
+*/
+
+import ProjectPreview from "@/components/projects/ProjectPreview";
+import { cn } from "@/lib/utils";
+import { getAllGames } from "@/lib/projects/api";
+import { PATH_GAMES_IMAGES } from "@/lib/constants";
+
+// TODO 
+// this isn't really how I want this to look
+
+export default function Games({
+  searchParams,
+}: {
+  searchParams: { [key: string]: string | string[] | undefined };
+}) {
+  const allGames = getAllGames();
+  const tag =
+    typeof searchParams.tag === "string" ? searchParams.tag : undefined;
+
+  const games = tag
+    ? allGames.filter((post) =>
+        post.tags.some((t) => t.toLowerCase() === tag.toLowerCase())
+      )
+    : allGames;
+
+  let currentYear = new Date().getFullYear() + 1;
+
+  return (
+    <div className="flex flex-col w-[75vw] items-center max-w-2xl mx-auto gap-8 min-h-screen text-lg">
+      <h1 className="text-6xl font-header tracking-wide mb-8 text-center">
+        GAMES
+      </h1>
+      {games.map((post, index) => {
+        const gameYear = new Date(post.date).getFullYear();
+        const showYear = gameYear !== currentYear;
+        currentYear = gameYear;
+        const printSlug = post.slug.replace(/-/g, " ").toUpperCase();
+        
+        return (
+          <div className="flex flex-col md:flex-row gap-8 items-center w-full" key={post.slug}>
+            {post.coverImage && (
+              <div className="w-full md:w-1/2 flex items-center">
+                <Image
+                  src={`${PATH_GAMES_IMAGES}/${post.coverImage}`}
+                  alt={post.title}
+                  width={0}
+                  height={0}
+                  sizes="20vw"
+                  className="w-full h-auto"
+                />
+              </div>
+            )}
+
+            <div className="flex-1">
+              <ProjectPreview project={post} />
+            </div>
+          </div>
+
+          // <div
+          //   key={post.slug}
+          //   className={cn(
+          //     "flex w-full items-start gap-4",
+          //     showYear && "border-t pt-4"
+          //   )}
+          // >
+          //   {/* Year column */}
+          //   <div className="min-w-[60px] text-right">
+          //     {showYear && (
+          //       <h2 className="font-semibold text-muted-foreground">
+          //         {printSlug}
+          //       </h2>
+          //     )}
+          //   </div>
+
+          //   {/* Post preview column */}
+          //   <div className={cn("flex-1", !showYear && "border-t pt-4")}>
+          //     <ProjectPreview project={post} />
+          //   </div>
+          // </div>
+        );
+      })}
     </div>
   );
 }

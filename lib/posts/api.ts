@@ -5,7 +5,7 @@ import { Post } from "./types";
 
 const postsDirectory = join(process.cwd(), "writing");
 
-function filterSlugs(slugs: string[]): string[] {
+export function filterSlugs(slugs: string[]): string[] {
   return slugs.filter((slug) => {
     return !slug.toUpperCase().startsWith("DRAFT-");
   });
