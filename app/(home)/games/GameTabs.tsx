@@ -25,7 +25,7 @@ export default function GameTabs({
     .slice(0, numToShow);
 
   return (
-    <div className="flex flex-col w-[75vw] items-center max-w-2xl mx-auto gap-8 min-h-screen text-lg">
+    <div className="flex flex-col w-[75vw] items-center max-w-2xl mx-auto gap-8 text-lg">
       <div className="flex flex-col gap-8 w-full">
         {filteredGames.map((post) => (
           <div
@@ -33,7 +33,7 @@ export default function GameTabs({
             key={post.slug}
           >
             {post.coverImage && (
-              <div className="w-full md:w-1/2 flex items-center">
+              <div className="w-full md:w-1/3 flex items-center">
                 <Image
                   src={`${PATH_GAMES_IMAGES}/${post.coverImage}`}
                   alt={post.title}

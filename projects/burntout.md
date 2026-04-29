@@ -3,7 +3,7 @@ title: "Burnt Out"
 preview: "An anti-cozy game about the feeling of being overwhelmed by life. Made in Godot."
 type: "game"
 date: "June 2, 2024"
-tags: ["personal"]
+tags: ["personal", "best"]
 coverImage: "burntout.png"
 playURL: "https://oman276.itch.io/burnt-out"
 sourceURL: "https://github.com/kertox662/GDC-GameJam-S24"

@@ -3,7 +3,7 @@ title: "The Turtle Game"
 preview: "Play as a very slippery turtle exploring levels to defeat evil robot birds. My first major non-jam personal project."
 type: "game"
 date: "May 6, 2024"
-tags: ["personal"]
+tags: ["personal", "best"]
 coverImage: "turtle.png"
 playURL: "https://eternalon03.itch.io/turtle-golf"
 sourceURL: "https://github.com/oman276/UW-Winter-2026-Game-Jam"

@@ -10,7 +10,7 @@ export default function ProjectPreview({ project }: { project: Project }) {
   });
 
   return (
-    <div className="flex flex-col gap-4">
+    <div className="flex flex-col gap-4 max-h-40">
       <Link href={`${PATH_PROJECTS}/${project.slug}`} passHref>
         <div className="flex justify-between group hover:underline hover:cursor-pointer py-4 -my-4">
           <h1 className="text-2xl font-semibold group-hover:underline decoration-muted-foreground">
