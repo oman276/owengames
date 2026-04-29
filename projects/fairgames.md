@@ -3,7 +3,7 @@ title: "Fairgames"
 preview: "An upcoming first-party PlayStation third-person heist game for PS5 and PC"
 type: "game"
 date: "December 31 2025"
-displayedDate: "Jan-April, Sept-Dec 2025"
+displayedDate: "January-April, September-December 2025"
 tags: ["professional", "best"]
 coverImage: "fairgames1.png"
 actionURL: "https://www.youtube.com/watch?v=l1Jp4K02L1I"

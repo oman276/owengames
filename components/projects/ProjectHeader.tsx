@@ -31,7 +31,7 @@ export default function ProjectHeader(project : GameProject) {
         <h1 className="text-5xl font-header uppercase font-bold">{project.title}</h1>
         <p className="text-muted-foreground">{project.preview}</p>
 
-        <p className="text-sm text-muted-foreground">{project.date}</p>
+        <p className="text-sm text-muted-foreground">{project.displayedDate ?? project.date}</p>
         <div className="flex flex-col md:flex-row">
             {project.actionURL && (
             <Button variant="outline" asChild>
