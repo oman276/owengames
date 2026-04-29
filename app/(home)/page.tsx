@@ -1,36 +1,23 @@
 import { Button } from "@/components/ui/button";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
 import Link from "next/link";
 import {
-  NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuIndicator,
-  NavigationMenuItem,
-  NavigationMenuLink,
-  NavigationMenuList,
-  NavigationMenuTrigger,
-  NavigationMenuViewport,
-} from "@/components/ui/navigation-menu";
-import { navigationMenuTriggerStyle } from "@/components/ui/navigation-menu";
-import {
-  PATH_HOME,
-  PATH_GAMES,
-  PATH_PHOTOGRAPHY,
   PATH_WRITING,
-  PATH_CONTACT,
 } from "@/lib/constants";
 
 export default async function Home() {
   return (
     <div className="flex flex-col items-center gap-4 text-lg text-center">
-      <span className="font-header text-[5rem] bg-clip-text tracking-wide leading-none">
-        OWENGAMES
-      </span>
+      
+      <div className="flex justify-between">
+        <span className="font-header text-[5rem] bg-clip-text tracking-wide leading-none block">
+          OWEN<br/>GALLAGHER
+        </span>
+        <span className="font-header text-[5rem] bg-clip-text tracking-wide leading-none">
+          RIGHT 
+          SIDE
+        </span>
+      </div>
+      
       <p className="font-sans">I&apos;m Owen Gallagher. I spend most of my time these days being a student at the University of Waterloo and a game developer. The rest of my time is is spent writing and taking pretty pictures.</p>
       <p className="font-sans">I&apos;ve made 16 personal games (and counting) mostly using Godot and Unity/C#. I&apos;ve also worked a year&apos;s worth of gameplay programmer internships, including at Haven Studios (PlayStation Studios) on Fairgame$ and Digital Extremes on Warframe in C++ and/or Unreal Engine 5.</p>
       <p className="font-sans">Here&apos;s some of the work that I&apos;m proudest of right now:</p>
