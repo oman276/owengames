@@ -1,7 +1,7 @@
 import { getAllGames } from "@/lib/projects/api";
-import GameTabs from "./GameTabs";
+import GamesClient from "./GamesClient";
 
 export default function Games() {
   const allGames = getAllGames();
-  return <GameTabs games={allGames} />;
+  return <GamesClient games={allGames} />;
 }

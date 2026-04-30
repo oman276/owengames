@@ -3,7 +3,7 @@ title: "Wrath of Daedelus"
 preview: "A steampunk Icarus must defeat the endless legions of his father Daedelus' mechanical creations. Made in Godot for the UW Winter 2025 Game Jam."
 type: "game"
 date: "February 9, 2025"
-tags: ["personal"]
+tags: ["personal", "best"]
 coverImage: "daedalus.png"
 playURL: "https://eternalon03.itch.io/wrath-of-daedalus"
 sourceURL: "https://github.com/oman276/UWJamW25"
