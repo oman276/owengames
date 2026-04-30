@@ -39,7 +39,7 @@ export default function GameTabs({
                   alt={post.title}
                   width={0}
                   height={0}
-                  sizes="20vw"
+                  sizes="(max-width: 768px) 75vw, 25vw"
                   className="w-full h-auto"
                 />
               </div>
