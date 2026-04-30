@@ -1,9 +1,10 @@
 "use client";
 
-import { useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useMeasure } from "react-use";
 import Photo, { LoadMethod } from "./Photo";
 import { MasonryImage } from "@/components/photography/MasonryLayout";
+import { photos } from "@/app/(home)/photography/content";
 
 // export type MasonryImage = {
 //   src: string;
@@ -19,7 +20,18 @@ import { MasonryImage } from "@/components/photography/MasonryLayout";
 type MasonryLayoutProps = {
   images: MasonryImage[];
   loadMethod?: LoadMethod;
+  loadedItems?: number;
+  shuffleItems?: boolean;
 };
+
+function shuffleArray<T>(array: T[]): T[] {
+  const newArray = [...array];
+  for (let i = newArray.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+  }
+  return newArray;
+}
 
 /**
  * Josiah's custom dynamic, animated Masonry layout component.
@@ -28,7 +40,19 @@ type MasonryLayoutProps = {
 export default function MasonryLayout({
   images,
   loadMethod = "border",
+  loadedItems = 20,
+  shuffleItems = false,
 }: MasonryLayoutProps) {
+  // const [loadMethod, setLoadMethod] = useState<LoadMethod>("border");
+  const [shuffledPhotos, setShuffledPhotos] = useState<MasonryImage[]>([]);
+
+  useEffect(() => {
+    const processed = shuffleItems
+      ? shuffleArray<MasonryImage>(images)
+      : [...images];
+    setShuffledPhotos(processed.slice(0, loadedItems));
+  }, [images, loadedItems, shuffleItems]);
+
   const [ref, { width }] = useMeasure<HTMLDivElement>();
 
   const w = width ? width : 608;
@@ -44,14 +68,14 @@ export default function MasonryLayout({
         return Math.abs(index * 2 + 1 - columns) * 0.75;
       });
 
-    images.forEach((image) => {
+    shuffledPhotos.forEach((image) => {
       const shortestColumn = columnHeights.indexOf(Math.min(...columnHeights));
       cols[shortestColumn].push(image);
       columnHeights[shortestColumn] += image.size[1] / image.size[0];
     });
 
     return cols;
-  }, [images, columns]);
+  }, [shuffledPhotos, columns]);
 
   return (
     <div ref={ref} className="w-full flex gap-3 sm:gap-4">
