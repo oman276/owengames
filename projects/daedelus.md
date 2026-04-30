@@ -1,6 +1,6 @@
 ---
 title: "Wrath of Daedalus"
-preview: "A steampunk Icarus must defeat the endless legions of his father Daedelus' mechanical creations. Made in Godot for the UW Winter 2025 Game Jam."
+preview: "A steampunk Icarus must defeat the endless legions of his father Daedelus' mechanical creations. Made in Godot."
 type: "game"
 date: "February 9, 2025"
 tags: ["personal", "best"]
