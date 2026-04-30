@@ -70,7 +70,7 @@ export default async function Home() {
 
       <div className="flex flex-col gap-4 text-lg text-left">
         <p>If you want to chat about any of this, or you have a cool project you think I might want to work on, feel free to reach out!</p>
-        <div className="flex justify-center gap-4">
+        <div className="flex flex-wrap justify-center gap-4">
           <Button variant="outline" asChild>
             <Link href="https://www.linkedin.com/in/owen-gallagher-40b1721b4/"><LinkedInLogoIcon /> LinkedIn</Link>
           </Button>
