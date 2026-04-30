@@ -1,10 +1,20 @@
 import InlineLink from "@/components/common/InlineLink";
 import PhotographyContent from "@/components/layout/PhotographyContext";
+import { Button } from "@/components/ui/button";
+import Link from "next/dist/client/link";
+import {
+  InstagramLogoIcon
+} from "@radix-ui/react-icons";
 
 export default async function Photography() {
   return (
     <div className="flex flex-col gap-4">
-      <h1 className="text-6xl font-header tracking-wide mb-8 text-center">PHOTOGRAPHY</h1>
+      <h1 className="text-6xl font-header tracking-wide text-center">PHOTOGRAPHY</h1>
+      <div className="flex justify-center">
+        <Button variant="outline" asChild>
+          <Link href="https://www.instagram.com/oweng.pics/"><InstagramLogoIcon /> Follow on Instagram for more</Link>
+        </Button>
+      </div>
       <PhotographyContent />
       <div className="w-full max-w-[72ch] mx-auto">
         <p>
