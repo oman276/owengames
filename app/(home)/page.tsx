@@ -30,7 +30,7 @@ export default async function Home() {
   return (
     <div className="flex flex-col items-center gap-4 text-lg text-center">
       <div className="flex justify-between gap-8 max-h-40">
-        <span className="font-header text-[4rem] bg-clip-text tracking-wide leading-none block flex items-center justify-center">
+        <span className="font-header text-[3rem] bg-clip-text tracking-wide leading-none block flex items-center text-right justify-center">
           OWEN<br/>GALLAGHER
         </span>
         <div className="aspect-square overflow-hidden rounded-xl flex items-center">
