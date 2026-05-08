@@ -32,19 +32,19 @@ export default function ProjectHeader(project : GameProject) {
         <p className="text-muted-foreground">{project.preview}</p>
 
         <p className="text-sm text-muted-foreground">{project.displayedDate ?? project.date}</p>
-        <div className="flex flex-col md:flex-row">
+        <div className="flex flex-col md:flex-row gap-2">
             {project.actionURL && (
-            <Button variant="outline" asChild>
+            <Button asChild>
                 <Link href={project.actionURL}><MagnifyingGlassIcon className="w-4 h-4 mr-2" />{project.actionText}</Link>
             </Button>
             )}
             {project.playURL && (
-            <Button variant="outline" asChild>
+            <Button asChild>
                 <Link href={project.playURL}><PlayIcon className="w-4 h-4 mr-2" />Play Game</Link>
             </Button>
             )}
             {project.sourceURL && (
-            <Button variant="outline" asChild>
+            <Button asChild>
                 <Link href={project.sourceURL}><GitHubLogoIcon className="w-4 h-4 mr-2" />View Code</Link>
             </Button>
             )}
