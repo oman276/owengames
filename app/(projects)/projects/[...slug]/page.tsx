@@ -9,15 +9,16 @@ import ProjectBody from "@/components/projects/ProjectBody";
 import ProjectGallery from "@/components/projects/ProjectGallery";
 
 type Params = {
-  params: {
+  params: Promise<{
     slug: string[];
-  };
+  }>;
 };
 
 export default async function ProjectPage({ params }: Params) {
+  const { slug } = await params;
   let project;
   try {
-    project = getProjectBySlug(params.slug[0]);
+    project = getProjectBySlug(slug[0]);
   } catch {
     return (
       <div className="w-full">
@@ -40,10 +41,11 @@ export default async function ProjectPage({ params }: Params) {
   );
 }
 
-export function generateMetadata({ params }: Params): Metadata {
+export async function generateMetadata({ params }: Params): Promise<Metadata> {
+  const { slug } = await params;
   let project;
   try {
-    project = getProjectBySlug(params.slug[0]);
+    project = getProjectBySlug(slug[0]);
   } catch {
     return {
       title: "Project 404",
@@ -51,7 +53,7 @@ export function generateMetadata({ params }: Params): Metadata {
       openGraph: getOGData({
         title: "Project 404",
         description: "Project not found",
-        url: `${BASE_URL}${PATH_PROJECTS}/${params.slug[0]}`,
+        url: `${BASE_URL}${PATH_PROJECTS}/${slug[0]}`,
       }),
     };
   }
