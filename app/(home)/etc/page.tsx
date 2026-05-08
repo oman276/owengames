@@ -22,7 +22,7 @@ export default function Etc() {
   return (
     <div className="flex flex-col items-center gap-4 text-lg text-center">
       <h1 className="text-6xl font-header tracking-wide mb-8 text-center">
-          GAMES
+          OTHER PROJECTS
       </h1>
       <GameTabs games={nonGameProjects}></GameTabs>
     </div>
