@@ -6,6 +6,7 @@ import {
   PATH_PHOTOGRAPHY,
   PATH_WRITING,
   PATH_CONTACT,
+  PATH_ETC,
 } from "@/lib/constants";
 import { usePathname } from "next/navigation";
 import NavButton from "../common/NavButton";
@@ -48,6 +49,14 @@ export default function Navigation() {
             aria-label="Photography"
           >
             PHOTOGRAPHY
+        </NavButton>
+
+        <NavButton
+            href={PATH_ETC}
+            active={pathname === PATH_ETC}
+            aria-label="Etc"
+          >
+            ETC
         </NavButton>
       </div>
     </nav>
