@@ -3,7 +3,7 @@ title: "Halo 3D Graphics Demo"
 preview: "A cutscene based on Halo: Combat evolved created in a custom OpenGL real time 3D engine."
 type: "project"
 date: "March 31 2026"
-tags: ["personal"]
+tags: ["personal", "best"]
 coverImage: "halo1.png"
 actionURL: "https://www.youtube.com/watch?v=_XQpwG9XJZs"
 actionText: "Watch on YouTube"

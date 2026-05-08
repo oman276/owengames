@@ -4,7 +4,8 @@ import {
   PATH_HOME_IMAGES,
   PATH_PHOTOGRAPHY,
   PATH_WRITING,
-  PATH_RSS
+  PATH_RSS,
+  PATH_ETC
 } from "@/lib/constants";
 import Image from "next/image";
 import InlineLink from "@/components/InlineLink";
@@ -12,6 +13,7 @@ import GameTabs from "./games/GameTabs";
 import WritingList from "@/components/writing/WritingList";
 import { getAllGames } from "@/lib/projects/api";
 import { getAllPosts } from "@/lib/posts/api";
+import { getAllNonGameProjects } from "@/lib/projects/api";
 import { photos } from "@/app/(home)/photography/content";
 import MasonryLayout from "@/components/common/photos/MasonryLayout";
 import { Button } from "@/components/ui/button";
@@ -26,6 +28,7 @@ import {
 export default async function Home() {
   const allGames = getAllGames();
   const allPosts = getAllPosts();
+  const allNonGameProjects = getAllNonGameProjects();
 
   return (
     <div className="flex flex-col items-center gap-4 text-lg text-center">
@@ -59,9 +62,16 @@ export default async function Home() {
       <InlineLink href={PATH_GAMES}>See all games here.</InlineLink>
 
       <div className="flex flex-col gap-4 text-lg text-left w-full max-w-2xl pt-8">
-        <p>In my spare time, I like to <InlineLink href={PATH_WRITING}>write on my blog</InlineLink>, take pretty pictures, play games, and work on personal projects using interesting technology.</p>
+        <p>In my spare time, I like to work on interesting personal projects, <InlineLink href={PATH_WRITING}>write on my blog</InlineLink> and take pretty pictures.</p>
+      </div>
+
+      <GameTabs games={allNonGameProjects} activeTab={"best"} numToShow={5} />
+      <InlineLink href={PATH_ETC}>See all non-game projects here.</InlineLink>
+
+      <div className="flex flex-col gap-4 text-lg text-left w-full max-w-2xl pt-8">
         <WritingList posts={allPosts} activeTag="best" numToShow={7} />
       </div>
+
       <InlineLink href={PATH_WRITING}>See all writing here.</InlineLink>
       <div className="pt-8 w-full max-w-[140ch] mx-auto">
         <MasonryLayout images={photos} loadMethod={"border"} loadedItems={9} shuffleItems={true} />
@@ -87,8 +97,8 @@ export default async function Home() {
             <Link href="https://oman276.itch.io/"><PlayIcon /> itch.io</Link>
           </Button>
         </div>
-        <div className="text-center text-sm italic">
-          <p><i>owengames276[at]proton[dot]me</i></p>
+        <div className="text-center text-sm">
+          <p>Email: <i>owengames276[at]proton[dot]me</i></p>
         </div>
       </div>
     </div>
