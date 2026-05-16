@@ -8,13 +8,14 @@ import { getOGData } from "@/lib/utils";
 import { Metadata } from "next/types";
 
 type Params = {
-  params: {
+  params: Promise<{
     slug: string[];
-  };
+  }>;
 };
 
 export default async function Post({ params }: Params) {
-  const post = getPostBySlugSafely(params.slug[0]);
+  const { slug } = await params;
+  const post = getPostBySlugSafely(slug[0]);
 
   if (!post) {
     return (
@@ -47,8 +48,9 @@ export default async function Post({ params }: Params) {
   );
 }
 
-export function generateMetadata({ params }: Params): Metadata {
-  const post = getPostBySlugSafely(params.slug[0]);
+export async function generateMetadata({ params }: Params): Promise<Metadata> {
+  const { slug } = await params;
+  const post = getPostBySlugSafely(slug[0]);
 
   if (!post) {
     return {
@@ -57,7 +59,7 @@ export function generateMetadata({ params }: Params): Metadata {
       openGraph: getOGData({
         title: "Post 404",
         description: "Post not found",
-        url: `${BASE_URL}${PATH_WRITING}/${params.slug[0]}`,
+        url: `${BASE_URL}${PATH_WRITING}/${slug[0]}`,
       }),
     };
   }
@@ -92,8 +94,6 @@ export async function generateStaticParams() {
   const posts = getAllPosts();
 
   return posts.map((post) => ({
-    params: {
-      slug: post.slug,
-    },
+    slug: [post.slug],
   }));
 }
