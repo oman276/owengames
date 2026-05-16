@@ -132,7 +132,7 @@ To put it mildly, this launch did not go well.
 
 The biggest uproar came from people who had become emotionally attached to the specific quirks of the previous model, GPT-4o. They’d grown accustomed to its specific phrasing, its tone, and _especially_ the way it flattered them with endless praise, companionship, and words of affection on-demand.
 
-The launch of GPT-5 involved the abrupt disabling of GPT-4o, which shocked users when they discovered that their “close friend” had suddenly vanished and been replaced by a new system—colder, more clinical, and
+The launch of GPT-5 involved the abrupt disabling of GPT-4o, which shocked users when they discovered that their “close friend” had suddenly vanished and been replaced by a new system—colder, more clinical, more distant.
 
 Much has been written about what this means about our scary new age of ever-more intimate human-machine relationships, and what it means for society at large that so many people have fallen into parasocial relationships with next-word predictors on their computer.
 
