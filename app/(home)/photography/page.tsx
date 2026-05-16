@@ -11,8 +11,8 @@ export default async function Photography() {
     <div className="flex flex-col gap-4">
       <h1 className="text-6xl font-header tracking-wide text-center">PHOTOGRAPHY</h1>
       <div className="flex justify-center">
-        <Button variant="outline" asChild>
-          <Link href="https://www.instagram.com/oweng.pics/"><InstagramLogoIcon /> Follow on Instagram for more</Link>
+        <Button asChild>
+          <Link href="https://www.instagram.com/oweng.pics/"><InstagramLogoIcon className="w-4 h-4 mr-2" /> Follow on Instagram for more</Link>
         </Button>
       </div>
       <PhotographyContent />
