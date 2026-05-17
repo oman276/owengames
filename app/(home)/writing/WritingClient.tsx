@@ -38,14 +38,15 @@ export default function WritingClient({
       <h1 className="text-6xl font-header tracking-wide mb-8 text-center">
         WRITING
       </h1>
-      <div className="flex gap-2 -mt-6 mb-2">
+      <SubstackSubscribe className="w-full max-w-md mb-2" />
+      {/* <div className="flex gap-2 -mt-6 mb-2">
         <Button asChild>
           <Link href={PATH_RSS}>Subscribe via RSS</Link>
         </Button>
         <Button asChild>
           <Link href={URL_MY_SUBSTACK} target="_blank" rel="noopener noreferrer">Follow on Substack</Link>
         </Button>
-      </div>
+      </div> */}
       <div className="flex flex-wrap gap-2 justify-center mb-8">
         {CATEGORIES.map((category) => (
           <Button
@@ -66,7 +67,7 @@ export default function WritingClient({
         posts={posts}
         activeTag={activeTag === "All" ? undefined : activeTag}
       />
-      <SubstackSubscribe className="w-full max-w-md mt-8" />
+      
     </div>
   );
 }
