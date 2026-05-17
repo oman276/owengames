@@ -2,7 +2,11 @@ import PostBody from "@/components/writing/PostBody";
 import PostFooter from "@/components/writing/PostFooter";
 import PostHeader from "@/components/writing/PostHeader";
 import { AUTHOR, BASE_URL, PATH_WRITING } from "@/lib/constants";
-import { getAllPosts, getPostBySlugSafely } from "@/lib/posts/api";
+import {
+  getAllPosts,
+  getPostBySlugSafely,
+  getRelatedPosts,
+} from "@/lib/posts/api";
 import markdownToHtml from "@/lib/posts/markdownToHtml";
 import { getOGData } from "@/lib/utils";
 import { Metadata } from "next/types";
@@ -31,6 +35,7 @@ export default async function Post({ params }: Params) {
   const posts = getAllPosts();
   const currentIndex = posts.findIndex((p) => p.slug === post.slug);
   const nextPost = currentIndex > 0 ? posts[currentIndex - 1] : undefined;
+  const relatedPosts = getRelatedPosts(post, posts);
 
   return (
     <div className="flex flex-col items-center max-w-2xl mx-auto gap-4 min-h-screen">
@@ -42,7 +47,7 @@ export default async function Post({ params }: Params) {
           date={post.date}
         />
         <PostBody content={content} />
-        <PostFooter nextPost={nextPost} />
+        <PostFooter nextPost={nextPost} relatedPosts={relatedPosts} />
       </article>
     </div>
   );

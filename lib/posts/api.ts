@@ -1,6 +1,7 @@
 import fs from "fs";
 import matter from "gray-matter";
 import { join } from "path";
+import { GENERIC_TAGS } from "./constants";
 import { Post } from "./types";
 
 const postsDirectory = join(process.cwd(), "writing");
@@ -59,4 +60,47 @@ export function getAllPosts(): Post[] {
       new Date(post1.date).getTime() > new Date(post2.date).getTime() ? -1 : 1,
     );
   return posts;
+}
+
+/**
+ * Returns posts related to the current one by shared (non-generic) tags,
+ * ordered by overlap count then by date. If fewer than `count` posts share
+ * any meaningful tag, fills the remainder with the most recent other posts.
+ */
+export function getRelatedPosts(
+  currentPost: Post,
+  allPosts: Post[],
+  count = 3,
+): Post[] {
+  const others = allPosts.filter((p) => p.slug !== currentPost.slug);
+  const genericLower = GENERIC_TAGS.map((t) => t.toLowerCase());
+  const meaningfulTags = currentPost.tags
+    .map((t) => t.toLowerCase())
+    .filter((t) => !genericLower.includes(t));
+
+  const scored = others
+    .map((p) => ({
+      post: p,
+      overlap: p.tags.filter((t) => meaningfulTags.includes(t.toLowerCase()))
+        .length,
+    }))
+    .filter((s) => s.overlap > 0)
+    .sort((a, b) => {
+      if (b.overlap !== a.overlap) return b.overlap - a.overlap;
+      return new Date(b.post.date).getTime() - new Date(a.post.date).getTime();
+    });
+
+  const related = scored.slice(0, count).map((s) => s.post);
+
+  if (related.length < count) {
+    const fillers = others
+      .filter((p) => !related.some((r) => r.slug === p.slug))
+      .sort(
+        (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime(),
+      )
+      .slice(0, count - related.length);
+    related.push(...fillers);
+  }
+
+  return related;
 }

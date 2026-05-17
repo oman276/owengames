@@ -1,32 +1,23 @@
-import { PATH_WRITING } from "@/lib/constants";
 import { Post } from "@/lib/posts/types";
-import { ArrowLeftIcon, ArrowRightIcon } from "@radix-ui/react-icons";
-import NavButton from "../NavButton";
-import { Separator } from "../ui/separator";
+import SubstackSubscribe from "./SubstackSubscribe";
+import WritingList from "./WritingList";
 
-export default function PostFooter({ nextPost }: { nextPost?: Post }) {
+export default function PostFooter({
+  nextPost,
+  relatedPosts,
+}: {
+  nextPost?: Post;
+  relatedPosts?: Post[];
+}) {
   return (
-    <div className="flex justify-between items-center w-full">
-      {nextPost ? (
-        <div className="flex max-w-full overflow-hidden items-center h-5 gap-2 mt-2 -mb-1">
-          <NavButton href={PATH_WRITING} className="pl-0">
-            <ArrowLeftIcon /> Back
-          </NavButton>
-          <Separator orientation="vertical" />
-          <NavButton href={`${PATH_WRITING}/${nextPost.slug}`}>
-            {nextPost.title} <ArrowRightIcon />
-          </NavButton>
+    <div className="flex flex-col items-center w-full gap-8 mt-8">
+      {relatedPosts && relatedPosts.length > 0 && (
+        <div className="w-full flex flex-col gap-2">
+          <h2 className="font-bold tracking-tight text-center">Recommended posts</h2>
+          <WritingList posts={relatedPosts} />
         </div>
-      ) : (
-        <NavButton href={PATH_WRITING} className="pl-0 mt-2 -mb-1">
-          <ArrowLeftIcon /> Back to Writing
-        </NavButton>
       )}
-      {/*
-      <NavButton href="/feed.xml" className="pr-0 mt-2 -mb-1 font-thin">
-        RSS
-      </NavButton>
-      */}
+      <SubstackSubscribe className="w-full max-w-md mb-2" />
     </div>
   );
 }

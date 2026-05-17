@@ -4,8 +4,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import WritingList from "@/components/writing/WritingList";
 import { Post } from "@/lib/posts/types";
-import Link from "next/dist/client/link";
-import { PATH_RSS, URL_MY_SUBSTACK } from "@/lib/constants";
+import SubstackSubscribe from "@/components/writing/SubstackSubscribe";
 
 const CATEGORIES = [
   "All",
@@ -37,14 +36,7 @@ export default function WritingClient({
       <h1 className="text-6xl font-header tracking-wide mb-8 text-center">
         WRITING
       </h1>
-      <div className="flex gap-2 -mt-6 mb-2">
-        <Button asChild>
-          <Link href={PATH_RSS}>Subscribe via RSS</Link>
-        </Button>
-        <Button asChild>
-          <Link href={URL_MY_SUBSTACK} target="_blank" rel="noopener noreferrer">Follow on Substack</Link>
-        </Button>
-      </div>
+      <SubstackSubscribe className="w-full max-w-md mb-2" />
       <div className="flex flex-wrap gap-2 justify-center mb-8">
         {CATEGORIES.map((category) => (
           <Button

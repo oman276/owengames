@@ -6,6 +6,7 @@ export default function PostPreview({ post }: { post: Post }) {
   const date = new Date(post.date).toLocaleDateString("en-CA", {
     month: "short",
     day: "2-digit",
+    year: "numeric",
   });
 
   return (
@@ -14,7 +15,7 @@ export default function PostPreview({ post }: { post: Post }) {
         <h1 className="tracking-tight font-semibold text-balance w-full">
           {post.title}
         </h1>
-        <p className="w-[9ch] font-semibold dark:font-bold text-muted-foreground text-right group-hover:underline decoration-muted-foreground">
+        <p className="w-[16ch] font-semibold dark:font-bold text-muted-foreground text-right group-hover:underline decoration-muted-foreground">
           {date}
         </p>
       </div>
