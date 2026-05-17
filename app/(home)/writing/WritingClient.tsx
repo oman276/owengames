@@ -39,14 +39,6 @@ export default function WritingClient({
         WRITING
       </h1>
       <SubstackSubscribe className="w-full max-w-md mb-2" />
-      {/* <div className="flex gap-2 -mt-6 mb-2">
-        <Button asChild>
-          <Link href={PATH_RSS}>Subscribe via RSS</Link>
-        </Button>
-        <Button asChild>
-          <Link href={URL_MY_SUBSTACK} target="_blank" rel="noopener noreferrer">Follow on Substack</Link>
-        </Button>
-      </div> */}
       <div className="flex flex-wrap gap-2 justify-center mb-8">
         {CATEGORIES.map((category) => (
           <Button

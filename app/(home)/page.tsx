@@ -24,6 +24,7 @@ import {
   ReaderIcon,
   PlayIcon
 } from "@radix-ui/react-icons";
+import SubstackSubscribe from "@/components/writing/SubstackSubscribe";
 
 export default async function Home() {
   const allGames = getAllGames();
@@ -73,6 +74,7 @@ export default async function Home() {
       </div>
 
       <InlineLink href={PATH_WRITING}>See all writing here.</InlineLink>
+      <SubstackSubscribe className="w-full max-w-md mb-2" />
       <div className="pt-8 w-full max-w-[140ch] mx-auto">
         <MasonryLayout images={photos} loadMethod={"border"} loadedItems={9} shuffleItems={true} />
       </div>
