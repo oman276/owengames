@@ -1,9 +1,4 @@
-import { PATH_WRITING } from "@/lib/constants";
 import { Post } from "@/lib/posts/types";
-import { ArrowLeftIcon, ArrowRightIcon } from "@radix-ui/react-icons";
-import NavButton from "../NavButton";
-import { Separator } from "../ui/separator";
-import PostPreview from "./PostPreview";
 import SubstackSubscribe from "./SubstackSubscribe";
 import WritingList from "./WritingList";
 

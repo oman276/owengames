@@ -4,8 +4,6 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import WritingList from "@/components/writing/WritingList";
 import { Post } from "@/lib/posts/types";
-import Link from "next/dist/client/link";
-import { PATH_RSS, URL_MY_SUBSTACK } from "@/lib/constants";
 import SubstackSubscribe from "@/components/writing/SubstackSubscribe";
 
 const CATEGORIES = [
@@ -59,7 +57,6 @@ export default function WritingClient({
         posts={posts}
         activeTag={activeTag === "All" ? undefined : activeTag}
       />
-      
     </div>
   );
 }

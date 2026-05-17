@@ -39,9 +39,9 @@ export default function WritingList({
               showYear && "border-t pt-4",
             )}
           >
-          <div className={cn("flex-1", !showYear && "border-t pt-4")}>
-            <PostPreview post={post} />
-          </div>
+            <div className={cn("flex-1", !showYear && "border-t pt-4")}>
+              <PostPreview post={post} />
+            </div>
           </div>
         );
       })}
