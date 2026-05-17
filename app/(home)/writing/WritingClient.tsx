@@ -6,6 +6,7 @@ import WritingList from "@/components/writing/WritingList";
 import { Post } from "@/lib/posts/types";
 import Link from "next/dist/client/link";
 import { PATH_RSS, URL_MY_SUBSTACK } from "@/lib/constants";
+import SubstackSubscribe from "@/components/writing/SubstackSubscribe";
 
 const CATEGORIES = [
   "All",
@@ -65,6 +66,7 @@ export default function WritingClient({
         posts={posts}
         activeTag={activeTag === "All" ? undefined : activeTag}
       />
+      <SubstackSubscribe className="w-full max-w-md mt-8" />
     </div>
   );
 }
