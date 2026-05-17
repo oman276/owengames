@@ -6,4 +6,7 @@ const AUTHOR: Author = {
   url: BASE_URL,
 };
 
-export { AUTHOR };
+/** Tags ignored when computing related posts (meta-tags, not topics). */
+const GENERIC_TAGS = ["quick", "writing"];
+
+export { AUTHOR, GENERIC_TAGS };

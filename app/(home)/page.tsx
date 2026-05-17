@@ -5,7 +5,8 @@ import {
   PATH_PHOTOGRAPHY,
   PATH_WRITING,
   PATH_RSS,
-  PATH_ETC
+  PATH_ETC,
+  URL_MY_SUBSTACK,
 } from "@/lib/constants";
 import Image from "next/image";
 import InlineLink from "@/components/InlineLink";
@@ -94,6 +95,11 @@ export default async function Home() {
           </Button>
           <Button variant="outline" asChild>
             <Link href={PATH_RSS}><ReaderIcon /> RSS Feed</Link>
+          </Button>
+          <Button variant="outline" asChild>
+            <Link href={URL_MY_SUBSTACK} target="_blank" rel="noopener noreferrer">
+              <ReaderIcon /> Substack
+            </Link>
           </Button>
           <Button variant="outline" asChild>
             <Link href="https://oman276.itch.io/"><PlayIcon /> itch.io</Link>
