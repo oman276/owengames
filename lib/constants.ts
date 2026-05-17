@@ -28,5 +28,6 @@ export const URL_MY_LINKEDIN =
 export const URL_MY_ITCH = "https://oman276.itch.io/";
 export const URL_MY_PHOTOGRAPHY_INSTAGRAM =
   "https://www.instagram.com/oweng.pics/";
+export const URL_MY_SUBSTACK = "https://owengames.substack.com/";
 
 export const COPYRIGHT_STRING = `Copyright ${new Date().getFullYear()} © Owen Gallagher`;

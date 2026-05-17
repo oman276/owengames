@@ -4,6 +4,7 @@ import {
   URL_MY_ITCH,
   URL_MY_LINKEDIN,
   URL_MY_PHOTOGRAPHY_INSTAGRAM,
+  URL_MY_SUBSTACK,
 } from "@/lib/constants";
 import {
   GitHubLogoIcon,
@@ -35,6 +36,9 @@ export default function Footer() {
           </NavButton>
           <NavButton href={PATH_RSS} className="hidden sm:flex">
             RSS
+          </NavButton>
+          <NavButton href={URL_MY_SUBSTACK} external className="hidden sm:flex">
+            SUBSTACK
           </NavButton>
         </nav>
       </section>
