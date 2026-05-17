@@ -5,6 +5,7 @@ import NavButton from "../NavButton";
 import { Separator } from "../ui/separator";
 import PostPreview from "./PostPreview";
 import SubstackSubscribe from "./SubstackSubscribe";
+import WritingList from "./WritingList";
 
 export default function PostFooter({
   nextPost,
@@ -18,13 +19,14 @@ export default function PostFooter({
       {relatedPosts && relatedPosts.length > 0 && (
         <div className="w-full flex flex-col gap-2">
           {/* <h2 className="font-semibold tracking-tight">Recommended posts</h2> */}
-          <div className="flex flex-col">
+          {/* <div className="flex flex-col">
             {relatedPosts.map((post) => (
               <div key={post.slug} className="border-t pt-4">
                 <PostPreview post={post} />
               </div>
             ))}
-          </div>
+          </div> */}
+          <WritingList posts={relatedPosts} />
         </div>
       )}
       <SubstackSubscribe className="w-full max-w-md mb-2" />

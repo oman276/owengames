@@ -39,16 +39,9 @@ export default function WritingList({
               showYear && "border-t pt-4",
             )}
           >
-            {/* <div className="min-w-[60px] text-right">
-              {/* {showYear && (
-                <h2 className="font-semibold text-muted-foreground">
-                  {postYear}
-                </h2>
-              )} 
-            </div> */}
-            <div className={cn("flex-1", !showYear && "border-t pt-4")}>
-              <PostPreview post={post} />
-            </div>
+          <div className={cn("flex-1", !showYear && "border-t pt-4")}>
+            <PostPreview post={post} />
+          </div>
           </div>
         );
       })}
