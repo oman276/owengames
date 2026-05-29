@@ -2,7 +2,7 @@
 title: "Assignment 2"
 preview: "TODO: short one-line description for OpenGraph and project list previews."
 type: "sketch"
-date: "TODO: Month Day, Year"
+date: "January 1, 2025"
 tags: ["cs383", "p5js"]
 coverImage:
 playURL: "/sketches/assignment_2/"
