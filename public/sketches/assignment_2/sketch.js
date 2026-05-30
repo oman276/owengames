@@ -54,9 +54,7 @@ function setup() {
     speechRec.start();
   };
 
-  // NOTE: You must fill in your credentials in config.js for this to work
-  // Not sharing my own credentials on github. Get your own!
-  query = new BlueskyQuery(BSKY_HANDLE, BSKY_PASSWORD);
+  query = new BlueskyQuery();
 
   backgroundColorLight = color(108, 167, 240);
   backgroundColorDark = color(80, 155, 242);

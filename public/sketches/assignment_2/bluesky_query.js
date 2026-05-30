@@ -1,56 +1,11 @@
 class BlueskyQuery {
-  queryURL = "https://bsky.social/xrpc/app.bsky.feed.searchposts";
-
-  constructor(handle, appPassword) {
-    this.handle = handle;
-    this.appPassword = appPassword;
-    this.authPromise = null;
-
-    this.authenticate();
-  }
-
-  async authenticate() {
-    if (this.authPromise) return this.authPromise;
-
-    this.authPromise = (async () => {
-      let url = `https://bsky.social/xrpc/com.atproto.server.createSession`;
-      try {
-        let response = await fetch(url, {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            identifier: this.handle,
-            password: this.appPassword,
-          }),
-        });
-        let data = await response.json();
-        if (data.accessJwt) {
-          this.accessToken = data.accessJwt;
-          console.log("Authenticated successfully");
-        } else {
-          console.error("Authentication failed:", data);
-        }
-      } catch (error) {
-        console.error("Error authenticating:", error);
-      } finally {
-        this.authPromise = null;
-      }
-    })();
-
-    return this.authPromise;
-  }
+  queryURL = "/api/bluesky-search";
 
   async query(query, limit = 10) {
-    if (!this.accessToken) {
-      await this.authenticate();
-    }
-
-    let specificURL = `${this.queryURL}?q=${encodeURIComponent(query)}&limit=${limit}`;
     try {
-      let response = await fetch(specificURL, {
-        headers: { Authorization: `Bearer ${this.accessToken}` },
-      });
-
+      let response = await fetch(
+        `${this.queryURL}?q=${encodeURIComponent(query)}&limit=${limit}`,
+      );
       let data = await response.json();
       return data.posts;
     } catch (error) {
