@@ -15,4 +15,4 @@ This art piece uses fragments of posts on the social media network Bluesky to re
 
 **Microphone needs to be on for this to work. It may only work reliability on Chrome (and other Chromium broswers).**
 
-This was created for CS 383 at the University of Waterloo.
+This was created for [CS 383](https://student.cs.uwaterloo.ca/~cs383/) at the University of Waterloo.
