@@ -54,7 +54,7 @@ export default async function Home() {
         <p>Hi! I&apos;m Owen Gallagher, a gameplay programmer with over a year of AAA experience in Unreal Engine and C++, and <InlineLink href="https://oman276.itch.io/">indie experience</InlineLink> using Godot and Unity.</p>
         <p>I&apos;ve worked at:</p>
         <ul className="list-disc list-inside">
-          <li><InlineLink href="https://www.epicgames.com/site/home">Epic Games</InlineLink> (<i>incoming</i>) on <InlineLink href="https://www.unrealengine.com/">Unreal Engine 5</InlineLink></li>
+          <li><InlineLink href="https://www.epicgames.com/site/home">Epic Games</InlineLink> on <InlineLink href="https://www.unrealengine.com/">Unreal Engine 5</InlineLink></li>
           <li><InlineLink href="https://havenstudios.com/en">Haven Studios</InlineLink> (PlayStation Studios) on <InlineLink href="https://havenstudios.com/en/blog/introducing-fairgames-a-competitive-heist-experience-coming-to-ps5-and-pc">Fairgames</InlineLink></li>
           <li><InlineLink href="https://www.digitalextremes.com/">Digital Extremes</InlineLink> on <InlineLink href="https://www.warframe.com/en">Warframe</InlineLink></li>
         </ul>

@@ -40,7 +40,7 @@ export default function ProjectHeader(project : GameProject) {
             )}
             {project.playURL && (
             <Button asChild>
-                <Link href={project.playURL}><PlayIcon className="w-4 h-4 mr-2" />Play Game</Link>
+                <a href={project.playURL}><PlayIcon className="w-4 h-4 mr-2" />Play Game</a>
             </Button>
             )}
             {project.sourceURL && (
