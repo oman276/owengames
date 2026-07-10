@@ -4,7 +4,7 @@ preview: "An experimental art piece envisioning a collaborative artistic relatio
 type: "project"
 date: "April 6 2026"
 tags: ["personal"]
-coverImage: "teamwork1.png"
+coverImage: "teamwork-1.png"
 sourceURL: "https://github.com/oman276/CS-383-Assignments/tree/main/assignment_3"
 ---
 
