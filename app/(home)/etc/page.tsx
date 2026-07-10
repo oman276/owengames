@@ -10,7 +10,7 @@ export default function Etc() {
       <h1 className="text-6xl font-header tracking-wide mb-8 text-center">
           OTHER PROJECTS
       </h1>
-      <GameTabs games={nonGameProjects}></GameTabs>
+      <GameTabs games={nonGameProjects} numToShow={25} />
     </div>
   );
 }
